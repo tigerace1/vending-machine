@@ -84,6 +84,13 @@ public class VendingMachine {
     	else
     	  InputMoneyDrinks();
     }
+    public String MoneyFormat(float money)
+    {
+    	money = money*100;
+    	int dollars = (int)money/100;
+    	int cents = (int)money%100;
+    	return dollars+"."+cents;
+    }
     public void InputMoneySnacks()
     {
       Scanner keyboard = new Scanner(System.in);
@@ -108,7 +115,7 @@ public class VendingMachine {
     	FoodInformation snack = new FoodInformation();
     	System.out.println("Here is the nutrition fact: ");
 		snack.foods(itemNumber);
-		System.out.println("Here you are, and your "+(Money-1.5)+ " changes.");
+		System.out.println("Here you are, and your $"+MoneyFormat(Money-1.5f)+ " changes.");
 	    SnackCount++;
     }
     public void InputMoneyDrinks()
@@ -135,7 +142,7 @@ public class VendingMachine {
     	FoodInformation drinking = new FoodInformation();
     	System.out.println("Here is the nutrition fact: ");
  		drinking.DRINK(itemNumber);
- 		System.out.println("Here you are, and your "+(Money-2)+ " changes.");
+ 		System.out.println("Here you are, and your $"+MoneyFormat(Money-2)+ " changes.");
      	DrinkCount++;
     }
     private String Date()
