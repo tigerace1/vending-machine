@@ -1,0 +1,2519 @@
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 3.y and Stuffing) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: null (Drink)
+$2.0
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: null (Drink)
+$2.0
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: null (Drink)
+$2.0
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: null (Drink)
+$2.0
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: null (Drink)
+$2.0
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: null (Drink)
+$2.0
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: null (Drink)
+$2.0
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: null (Drink)
+$2.0
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: null (Drink)
+$2.0
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: null (Drink)
+$2.0
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: null (Drink)
+$2.0
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: null (Drink)
+$2.0
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: null (Drink)
+$2.0
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: null (Drink)
+$2.0
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: null (Drink)
+$2.0
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: null (Drink)
+$2.0
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Drinks:
+Item name: 7. Sprite (Drink)
+$2.0
+Drinks:
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Snacks:
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Snacks:
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Drinks:
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Snacks:
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Drinks:
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Snacks:
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Drinks:
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Drinks:
+Item name: 4. Monster  (Drink)
+$2.0
+Drinks:
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Snacks:
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Drinks:
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Snacks:
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Snacks:
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Snacks:
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Drinks:
+Item name: 1. Spring water (Drink)
+$2.0
+Drinks:
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Drinks:
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Snacks:
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 1. Spring water (Drink)
+$2.0
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 7. Sprite (Drink)
+$2.0
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 7. M&M(Peanut) (Snack)
+$1.5
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 4. Monster  (Drink)
+$2.0
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 10. Hershey's(Milk chocolate-Almonds) (Snack)
+$1.5
+Item name: 9. SunKist(green apple) (Drink)
+$2.0
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 3. Lay's(Chili Lemon Octopus) (Snack)
+$1.5
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 2. Lay's(Cherry Cola) (Snack)
+$1.5
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack)
+$1.5
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 9. Hershey's(special dark) (Snack)
+$1.5
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 5. Lay's(Cotton Candy) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 2. Classic Cola (Drink)
+$2.0
+Item name: 8. SunKist(orange) (Drink)
+$2.0
+Item name: 10. SunKist(grape) (Drink)
+$2.0
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0
+Item name: 3. CocaCola Zero (Drink)
+$2.0
+Item name: 6. M&M(Milk chocolate) (Snack)
+$1.5
+Item name: 8. Snickers (Snack)
+$1.5
+Item name: 2. Classic Cola (Drink)
+$2.0  2015-9-7    8:58:51
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0  2015-9-7    8:58:51
+Item name: 3. CocaCola Zero (Drink)
+$2.0  2015-9-7    8:58:52
+Item name: 9. SunKist(green apple) (Drink)
+$2.0  2015-9-7    8:58:52
+Item name: 5. Minute Maid(orange) (Drink)
+$2.0  2015-9-7    8:58:52
+Item name: 7. M&M(Peanut) (Snack) $1.5  2015-9-7    8:58:52
+Item name: 8. Snickers (Snack) $1.5  2015-9-7    8:58:52
+Item name: 7. M&M(Peanut) (Snack) $1.5  2015-9-7    8:58:53
+Item name: 9. SunKist(green apple) (Drink)
+$2.0  2015-9-7    8:58:53
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack) $1.5  2015-9-7    8:58:53
+Item name: 9. SunKist(green apple) (Drink)
+$2.0  2015-9-8    0:53:23
+Item name: 6. M&M(Milk chocolate) (Snack) $1.5  2015-9-8    0:53:23
+Item name: 9. Hershey's(special dark) (Snack) $1.5  2015-9-8    0:53:23
+Item name: 6. Bubble Up-lemon-lime soda (Drink)
+$2.0  2015-9-8    1:1:49
+Item name: 10. SunKist(grape) (Drink)
+$2.0  2015-9-8    1:2:5
+Item name: 9. SunKist(green apple) (Drink)
+$2.0  2015-9-8    1:2:5
+Item name: 7. Sprite (Drink)
+$2.0  2015-9-8    1:2:5
+Item name: 4. Lay's(Bacon Grilled Cheese) (Snack) $1.5  2015-9-8    1:2:5
+Item name: 1. Lay's(Turkey and Stuffing) (Snack) $1.5  2015-9-8    1:2:5
+Item name: 6. M&M(Milk chocolate) (Snack) $1.5  2015-9-8    1:2:5
+Item name: 10. SunKist(grape) (Drink)
+$2.0  2015-9-8    1:2:6

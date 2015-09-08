@@ -1,0 +1,10 @@
+1. Spring water
+2. Classic Cola
+3. CocaCola Zero
+4. Monster 
+5. Minute Maid(orange)
+6. Bubble Up-lemon-lime soda
+7. Sprite
+8. SunKist(orange)
+9. SunKist(green apple)
+10. SunKist(grape)

@@ -1,0 +1,26 @@
+2015-9-8    1:2:6
+Today's customer number: 7
+Today sold 3 Snacks and 4 Drinks
+Today's total income: 12.5
+Snacks:
+1. Lay's(Turkey and Stuffing)    remain: 17
+2. Lay's(Cherry Cola)    remain: 17
+3. Lay's(Chili Lemon Octopus)    remain: 19
+4. Lay's(Bacon Grilled Cheese)    remain: 18
+5. Lay's(Cotton Candy)    remain: 19
+6. M&M(Milk chocolate)    remain: 14
+7. M&M(Peanut)    remain: 17
+8. Snickers    remain: 14
+9. Hershey's(special dark)    remain: 17
+10. Hershey's(Milk chocolate-Almonds)    remain: 19
+Drinks:
+1. Spring water    remain: 20
+2. Classic Cola    remain: 14
+3. CocaCola Zero    remain: 17
+4. Monster     remain: 19
+5. Minute Maid(orange)    remain: 15
+6. Bubble Up-lemon-lime soda    remain: 16
+7. Sprite    remain: 19
+8. SunKist(orange)    remain: 18
+9. SunKist(green apple)    remain: 14
+10. SunKist(grape)    remain: 16

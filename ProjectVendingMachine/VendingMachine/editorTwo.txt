@@ -1,0 +1,10 @@
+1. Spring water   ramain: 20
+2. Classic Cola   ramain: 14
+3. CocaCola Zero   ramain: 17
+4. Monster    ramain: 19
+5. Minute Maid(orange)   ramain: 15
+6. Bubble Up-lemon-lime soda   ramain: 16
+7. Sprite   ramain: 19
+8. SunKist(orange)   ramain: 18
+9. SunKist(green apple)   ramain: 14
+10. SunKist(grape)   ramain: 16
