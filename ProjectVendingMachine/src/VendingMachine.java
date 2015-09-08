@@ -35,6 +35,7 @@ public class VendingMachine {
   	   {
   		  System.out.println("Enter the number of money you want to add");
   		  float add = (float)(Math.random()+2);
+  		  System.out.println(add);
   		  money = money + add;
   	   }else{
   		  System.out.println("here is your "+money+" dollars,Bye-bye");
@@ -54,6 +55,7 @@ public class VendingMachine {
   		{
   		  System.out.println("Enter the number of money you want to add");
   		  float add = (float) (Math.random()+2);
+  		  System.out.println(add);
   		  money = money + add;
   		}else
   		{
@@ -87,6 +89,7 @@ public class VendingMachine {
       Scanner keyboard = new Scanner(System.in);
       System.out.println("Enter money now please:");
       float money = (float)(Math.random()+1);
+      System.out.println("User enter: $"+money);
 	  setMoneyOne(money);
 	}
     public void choseSnacks()
@@ -97,6 +100,7 @@ public class VendingMachine {
 		Snacks.MachineOne();
 		System.out.println("Pree the order number:");
 		int num = (int)(Math.random()*10)+1;
+		System.out.println(num);
 		setItemNumber(num);
 	}
     public void showingSnacks()
@@ -112,6 +116,7 @@ public class VendingMachine {
       Scanner keyboard = new Scanner(System.in);
       System.out.println("Enter money now please:");
       float money =(float)(Math.random()+1.5);
+      System.out.println("User enter: $"+money);
       setMoneyTwo(money);	
     }
     public void choseDrinks()
@@ -122,6 +127,7 @@ public class VendingMachine {
 		drinking.MachineTwo();
 		System.out.println("Pree the order number:");
 		int num = (int)(Math.random()*10)+1;
+		System.out.println(num);
 		setItemNumber(num);
 	}
     public void showingDrinks()
@@ -158,11 +164,11 @@ public class VendingMachine {
     	}
     	outputStream.println(Date());
     	outputStream.println("Today's customer number: "+(DrinkCount+SnackCount));
-    	outputStream.println("Today sold "+SnackCount+" Snacks and "+DrinkCount+" Drinks");
+    	outputStream.println("Today sold "+SnackCount+"($"+(SnackCount*1.5)+")"+" Snacks and "+DrinkCount+"($"+(DrinkCount*2)+")"+" Drinks");
     	outputStream.println("Today's total income: "+(DrinkCount*2+SnackCount*1.5));
     	outputStream.close();
     	System.out.println("Today's customer number: "+(DrinkCount+SnackCount));
-    	System.out.println("Today sold "+SnackCount+" Snacks and "+DrinkCount+" Drinks");
+    	System.out.println("Today sold "+SnackCount+"($"+(SnackCount*1.5)+")"+" Snacks and "+DrinkCount+"($"+(DrinkCount*2)+")"+" Drinks");
     	System.out.println("Today's total income: "+(DrinkCount*2+SnackCount*1.5));
      }
      public int getItemNumber()

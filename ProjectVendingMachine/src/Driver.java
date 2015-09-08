@@ -14,7 +14,7 @@ public class Driver {
 	 Ma.setting();
 	 Driver a = new Driver();
 	 a.display();
-     System.out.println("Out of order.");
+     System.out.println("Out of service.");
   }
   public void display()
   {
@@ -29,6 +29,7 @@ public class Driver {
 		 System.out.println("Welcome!");
 		 System.out.println("Do you want Snacks($1.5) or Drinks($2)(press 1 for Snacks, 2 for Drinks):");
 		 int num = (int)(Math.random()*2)+1;
+		 System.out.println(num);
 	     buyer.chooseVendingMachine(num);
 	     if(num==1)
 	     {
