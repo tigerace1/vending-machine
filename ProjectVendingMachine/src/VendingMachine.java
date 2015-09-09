@@ -176,7 +176,7 @@ public class VendingMachine {
     	outputStream.close();
     	System.out.println("Today's customer number: "+(DrinkCount+SnackCount));
     	System.out.println("Today sold "+SnackCount+"($"+(SnackCount*1.5)+")"+" Snacks and "+DrinkCount+"($"+(DrinkCount*2)+")"+" Drinks");
-    	System.out.println("Today's total income: "+(DrinkCount*2+SnackCount*1.5));
+    	System.out.println("Today's total income: $"+(DrinkCount*2+SnackCount*1.5));
      }
      public int getItemNumber()
     {
