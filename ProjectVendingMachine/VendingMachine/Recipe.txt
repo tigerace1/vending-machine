@@ -2517,3 +2517,17 @@ Item name: 1. Lay's(Turkey and Stuffing) (Snack) $1.5  2015-9-8    1:2:5
 Item name: 6. M&M(Milk chocolate) (Snack) $1.5  2015-9-8    1:2:5
 Item name: 10. SunKist(grape) (Drink)
 $2.0  2015-9-8    1:2:6
+Item name: 3. CocaCola Zero (Drink) $2.0  2015-9-9    5:0:24
+Item name: 9. SunKist(green apple) (Drink) $2.0  2015-9-9    5:0:24
+Item name: 4. Monster  (Drink) $2.0  2015-9-9    5:0:24
+Item name: 6. Bubble Up-lemon-lime soda (Drink) $2.0  2015-9-9    5:0:24
+Item name: 10. SunKist(grape) (Drink) $2.0  2015-9-9    5:1:31
+Item name: 8. SunKist(orange) (Drink) $2.0  2015-9-9    5:1:31
+Item name: 1. Lay's(Turkey and Stuffing) (Snack) $1.5  2015-9-9    5:1:31
+Item name: 7. Sprite (Drink) $2.0  2015-9-9    5:1:31
+Item name: 2. Classic Cola (Drink) $2.0  2015-9-9    5:1:31
+Item name: 1. Lay's(Turkey and Stuffing) (Snack) $1.5  2015-9-9    5:1:31
+Item name: 1. Lay's(Turkey and Stuffing) (Snack) $1.5  2015-9-9    5:1:31
+Item name: 8. Snickers (Snack) $1.5  2015-9-9    5:1:31
+Item name: 2. Lay's(Cherry Cola) (Snack) $1.5  2015-9-9    5:1:31
+Item name: 3. CocaCola Zero (Drink) $2.0  2015-9-9    5:1:31

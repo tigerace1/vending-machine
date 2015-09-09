@@ -14,7 +14,7 @@ public class Dis {
   }
   public void input()
   {
-	  fileName = "C:\\Users\\Chengen\\Desktop\\VendingMachine\\int.txt";
+	  fileName = "C:\\git\\ProjectVendingMachine\\VendingMachine\\int.txt";
 	  Scanner inputStream = null;
 	  try
 	  {
@@ -39,14 +39,14 @@ public class Dis {
   }
   public void setting()
   {
-	  fileName = "C:\\Users\\Chengen\\Desktop\\VendingMachine\\Drink.txt";
+	  fileName = "C:\\git\\ProjectVendingMachine\\VendingMachine\\drink.txt";
 	  Scanner inputDrink = null;
 	  try
 	  {
 		  inputDrink =  new Scanner(new File(fileName));
 	    while(inputDrink.hasNextLine()){
-		    index++;
 		    String o = inputDrink.nextLine();
+		    index++;
 	  }
 	   inputDrink.close();
 	  }
@@ -58,7 +58,7 @@ public class Dis {
   }
   public void output()
   {
-	 fileName = "C:\\Users\\Chengen\\Desktop\\VendingMachine\\int.txt";
+	 fileName = "C:\\git\\ProjectVendingMachine\\VendingMachine\\int.txt";
 	 PrintWriter outputStream = null;
 	 try
 	 {
@@ -99,9 +99,9 @@ public class Dis {
   }
   public void DrinksNumber()
   {
-	  String fileName = "C:\\Users\\Chengen\\Desktop\\VendingMachine\\drink.txt";
-	  String file = "C:\\Users\\Chengen\\Desktop\\VendingMachine\\sold.txt";
-	  String F = "C:\\Users\\Chengen\\Desktop\\VendingMachine\\editorTwo.txt";
+	  String fileName = "C:\\git\\ProjectVendingMachine\\VendingMachine\\drink.txt";
+	  String file = "C:\\git\\ProjectVendingMachine\\VendingMachine\\sold.txt";
+	  String F = "C:\\git\\ProjectVendingMachine\\VendingMachine\\editorTwo.txt";
 	  Scanner inputStream =null;
 	  PrintWriter outputStream = null;
 	  PrintWriter Output = null;

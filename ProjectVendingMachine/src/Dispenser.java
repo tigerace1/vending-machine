@@ -14,7 +14,7 @@ public class Dispenser {
   }
   public void Input()
   {
-	  fileName = "C:\\Users\\Chengen\\Desktop\\VendingMachine\\out.txt";
+	  fileName = "C:\\git\\ProjectVendingMachine\\VendingMachine\\out.txt";
 	  Scanner inputSnack = null;
 	  try
 	  {
@@ -36,7 +36,7 @@ public class Dispenser {
   }
   public void setting()
   {
-	  fileName = "C:\\Users\\Chengen\\Desktop\\VendingMachine\\Snack.txt";
+	  fileName = "C:\\git\\ProjectVendingMachine\\VendingMachine\\Snack.txt";
 	  Scanner inputStream = null;
 	  try
 	  {
@@ -55,7 +55,7 @@ public class Dispenser {
   }
   public void Output()
   {
-	 fileName = "C:\\Users\\Chengen\\Desktop\\VendingMachine\\out.txt";
+	 fileName = "C:\\git\\ProjectVendingMachine\\VendingMachine\\out.txt";
 	 PrintWriter outputStream = null;
 	 try
 	 {
@@ -96,9 +96,9 @@ public class Dispenser {
   }
   public void SnacksNumber()
   {
-	  String fileName = "C:\\Users\\Chengen\\Desktop\\VendingMachine\\Snack.txt";
-	  String file = "C:\\Users\\Chengen\\Desktop\\VendingMachine\\sold.txt";
-	  String F = "C:\\Users\\Chengen\\Desktop\\VendingMachine\\editorOne.txt";
+	  String fileName = "C:\\git\\ProjectVendingMachine\\VendingMachine\\Snack.txt";
+	  String file = "C:\\git\\ProjectVendingMachine\\VendingMachine\\sold.txt";
+	  String F = "C:\\git\\ProjectVendingMachine\\VendingMachine\\editorOne.txt";
 	  Scanner inputStream =null;
 	  PrintWriter outputStream = null;
 	  PrintWriter Output = null;

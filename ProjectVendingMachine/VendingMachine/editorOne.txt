@@ -1,10 +1,10 @@
 1. Lay's(Turkey and Stuffing)   ramain: 17
-2. Lay's(Cherry Cola)   ramain: 17
-3. Lay's(Chili Lemon Octopus)   ramain: 19
-4. Lay's(Bacon Grilled Cheese)   ramain: 18
-5. Lay's(Cotton Candy)   ramain: 19
-6. M&M(Milk chocolate)   ramain: 14
-7. M&M(Peanut)   ramain: 17
-8. Snickers   ramain: 14
-9. Hershey's(special dark)   ramain: 17
-10. Hershey's(Milk chocolate-Almonds)   ramain: 19
+2. Lay's(Cherry Cola)   ramain: 19
+3. Lay's(Chili Lemon Octopus)    ramain: 20
+4. Lay's(Bacon Grilled Cheese)    ramain: 20
+5. Lay's(Cotton Candy)   ramain: 20
+6. M&M(Milk chocolate)   ramain: 20
+7. M&M(Peanut)   ramain: 20
+8. Snickers   ramain: 19
+9. Hershey's(special dark)   ramain: 20
+10. Hershey's(Milk chocolate-Almonds)   ramain: 20

@@ -20,7 +20,7 @@ public class FoodInformation {
   }
   public void MachineOne()
   {
-	 String fileName ="C:\\Users\\Chengen\\Desktop\\VendingMachine\\Snack.txt";
+	 String fileName ="C:\\git\\ProjectVendingMachine\\VendingMachine\\Snack.txt";
 	 Scanner inputStream = null;
 	 try
 	 {
@@ -42,7 +42,7 @@ public class FoodInformation {
   }
   public void MachineTwo()
   {
-	 String file = "C:\\Users\\Chengen\\Desktop\\VendingMachine\\drink.txt";
+	 String file = "C:\\git\\ProjectVendingMachine\\VendingMachine\\drink.txt";
 	 Scanner inputStream = null;
 	 try
 	 {
@@ -65,7 +65,7 @@ public class FoodInformation {
   public void foods(int num)
   {
 	  String name = num+".txt";
-	  String file ="C:\\Users\\Chengen\\Desktop\\VendingMachine\\"+name;
+	  String file ="C:\\git\\ProjectVendingMachine\\VendingMachine\\"+name;
 	  Scanner inputStream = null;
 	  try
 	  {
@@ -87,7 +87,7 @@ public class FoodInformation {
   {
 	  num=num+10;
 	  String name = num+".txt";
-	  String file = "C:\\Users\\Chengen\\Desktop\\VendingMachine\\"+name;;
+	  String file = "C:\\git\\ProjectVendingMachine\\VendingMachine\\"+name;;
 	  Scanner inputStream = null;
 	  try
 	  {
@@ -107,7 +107,7 @@ public class FoodInformation {
   }
   public void printSnack(int newNumber)
   {
-	  String fileName = "C:\\Users\\Chengen\\Desktop\\VendingMachine\\Recipe.txt";
+	  String fileName = "C:\\git\\ProjectVendingMachine\\VendingMachine\\Recipe.txt";
 	  try{
 		  PrintWriter outputStream = new PrintWriter(new FileOutputStream(fileName,true));
 		  outputStream.println("Item name: "+linesOFSnacks[newNumber]+" (Snack) $1.5  "+Date());
@@ -121,10 +121,10 @@ public class FoodInformation {
   }
   public void printDrink(int newNumber)
   {
-	  String fileName = "C:\\Users\\Chengen\\Desktop\\VendingMachine\\Recipe.txt";
+	  String fileName = "C:\\git\\ProjectVendingMachine\\VendingMachine\\Recipe.txt";
 	  try{
 		  PrintWriter outputStream = new PrintWriter(new FileOutputStream(fileName,true));
-		  outputStream.println("Item name: "+linesOFDrinks[newNumber]+" (Drink)\n$2.0  "+Date());
+		  outputStream.println("Item name: "+linesOFDrinks[newNumber]+" (Drink) $2.0  "+Date());
 		  outputStream.close();
 	  }
 	  catch(FileNotFoundException e)

@@ -16,7 +16,7 @@ public class Editing {
 	}
 	public void readSnackInfor()
 	{
-		String fileName = "C:\\Users\\Chengen\\Desktop\\VendingMachine\\editorOne.txt";
+		String fileName = "C:\\git\\ProjectVendingMachine\\VendingMachine\\editorOne.txt";
 		Scanner inputStream =null;
 		try{
 			inputStream = new Scanner(new File(fileName));
@@ -36,7 +36,7 @@ public class Editing {
 	}
 	public void readDrinkInfor()
 	{
-		String fileName = "C:\\Users\\Chengen\\Desktop\\VendingMachine\\editorTwo.txt";
+		String fileName = "C:\\git\\ProjectVendingMachine\\VendingMachine\\editorTwo.txt";
 		Scanner inputStream =null;
 		try{
 			inputStream = new Scanner(new File(fileName));
@@ -56,8 +56,8 @@ public class Editing {
 	}
 	public void readNumber()
 	{
-		String fileName = "C:\\Users\\Chengen\\Desktop\\VendingMachine\\out.txt";
-		String file = "C:\\Users\\Chengen\\Desktop\\VendingMachine\\int.txt";
+		String fileName = "C:\\git\\ProjectVendingMachine\\VendingMachine\\out.txt";
+		String file = "C:\\git\\ProjectVendingMachine\\VendingMachine\\int.txt";
 		Scanner inputOne = null; 
 		Scanner inputTwo = null;
 		try{
@@ -147,8 +147,8 @@ public class Editing {
 	}
 	public void writeSnackInfor()
 	{
-		String fileName = "C:\\Users\\Chengen\\Desktop\\VendingMachine\\Snack.txt";
-		String F = "C:\\Users\\Chengen\\Desktop\\VendingMachine\\editorOne.txt";
+		String fileName = "C:\\git\\ProjectVendingMachine\\VendingMachine\\Snack.txt";
+		String F = "C:\\git\\ProjectVendingMachine\\VendingMachine\\editorOne.txt";
 		Scanner inputStream =null;
 		PrintWriter Output = null;
 		String Lines;
@@ -174,8 +174,8 @@ public class Editing {
 	}
 	public void writeDrinkInfor()
 	{
-		String fileName = "C:\\Users\\Chengen\\Desktop\\VendingMachine\\Drink.txt";
-		String F = "C:\\Users\\Chengen\\Desktop\\VendingMachine\\editorTwo.txt";
+		String fileName = "C:\\git\\ProjectVendingMachine\\VendingMachine\\drink.txt";
+		String F = "C:\\git\\ProjectVendingMachine\\VendingMachine\\editorTwo.txt";
 		Scanner inputStream =null;
 		PrintWriter Output = null;
 		String Lines;
@@ -198,11 +198,10 @@ public class Editing {
 		  }
 		  inputStream.close();
 		  Output.close();
-		  System.out.println("Date has been written in");
 	}
 	public void writeNumber()
 	{
-		 String fileName = "C:\\Users\\Chengen\\Desktop\\VendingMachine\\out.txt";
+		 String fileName = "C:\\git\\ProjectVendingMachine\\VendingMachine\\out.txt";
 		 PrintWriter outputOne = null;
 		 try
 		 {
@@ -218,7 +217,7 @@ public class Editing {
 			 outputOne.println(SnackAmount[i]);
 		 }
 		 outputOne.close();
-		 String FileName = "C:\\Users\\Chengen\\Desktop\\VendingMachine\\int.txt";
+		 String FileName = "C:\\git\\ProjectVendingMachine\\VendingMachine\\int.txt";
 		 PrintWriter outputStream = null;
 		 try
 		 {

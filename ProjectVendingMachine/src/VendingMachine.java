@@ -158,7 +158,7 @@ public class VendingMachine {
     }
     public void outputSold()
     {
-    	String fileName ="C:\\Users\\Chengen\\Desktop\\VendingMachine\\sold.txt";
+    	String fileName ="C:\\git\\ProjectVendingMachine\\VendingMachine\\sold.txt";
     	PrintWriter outputStream = null;
     	try
     	{
