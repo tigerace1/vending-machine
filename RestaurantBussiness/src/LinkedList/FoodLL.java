@@ -1,5 +1,5 @@
 package LinkedList;
-public class FoodLL<Object> {
+public class FoodLL<T> {
  private Node head;
  private int listCount;
  public FoodLL()
@@ -22,7 +22,8 @@ public class FoodLL<Object> {
   while(current.getNext()!=null)
 	  current = current.getNext();
   current.setNext(temp);
-  listCount++; 
+  listCount++;
+  
  }
  public String getData(int index)
  {

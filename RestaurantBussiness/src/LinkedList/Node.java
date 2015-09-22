@@ -16,11 +16,6 @@ public class Node {
   {
 	  this.pointer = pointer;
   }
-  public void setbBoth(String newData, Node p)
-  {
-	  this.data = newData;
-	  this.pointer = p;
-  }
   public String getData()
   {
 	  return data;
