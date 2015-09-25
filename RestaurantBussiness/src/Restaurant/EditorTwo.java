@@ -13,9 +13,10 @@ public class EditorTwo {
 	String fileName = "C:\\git\\RestaurantBussiness\\Menu\\FoodItems.txt";
     try{
 	  Scanner inputStream = new Scanner(new File(fileName));
+	  String line="";
 	  while(inputStream.hasNextLine())
 	  {
-		String line = inputStream.nextLine();
+		line = inputStream.nextLine();
 		String newline = toString(line); 
 		if(newline.equals(message))
 		   line = "";
@@ -24,6 +25,8 @@ public class EditorTwo {
 		   count++;
 		}
 	  }
+	  if(foodList.isEmpty()==true)
+		DelCate(line);
 	  inputStream.close();
 	}
 	catch(FileNotFoundException e)
@@ -47,10 +50,10 @@ public class EditorTwo {
   {
 	String[] ary = line.split(";");
 	String name = ary[1];
-	String prize = ary[2];
+	String price = ary[2];
 	String quality = ary[3];
 	String size = ary[4];
-	return name+"  "+prize+"  "+quality+"  "+size;
+	return name+"  "+price+"  "+quality+"  "+size;
   }
   void DelCate(String message) 
   {

@@ -1,6 +1,5 @@
-Soup
-Salad
-Ontray
 Desserts
+Ontray
+Salad
+Soup
 Wine&Drinks
-Cakes

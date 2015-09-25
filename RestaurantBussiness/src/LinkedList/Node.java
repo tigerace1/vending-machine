@@ -1,5 +1,4 @@
 package LinkedList;
-
 public class Node {
   private String data;
   private Node pointer;
@@ -11,10 +10,6 @@ public class Node {
   public void setData(String newData)
   {
 	  this.data = newData;
-  }
-  public void setPointer(Node pointer)
-  {
-	  this.pointer = pointer;
   }
   public String getData()
   {

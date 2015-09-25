@@ -1,116 +1,140 @@
 package Restaurant;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
 import java.util.Scanner;
+
+import LinkedList.CateList;
 import LinkedList.FoodLL;
-public class FoodItem {
+public class FoodItem implements Serializable{
    private FoodLL<String> FoodItem;
-   private FoodLL<String> foodCa;
-   private FoodLL<String> FoodList;
+   private CateList<Object> foodCa;
    private int CategoryCount;
    private int FoodCount;
-   private int FoodLine;
    public FoodItem()
    {
-	   FoodItem = new FoodLL<>();
-	   FoodList= new FoodLL<>();
-	   foodCa = new FoodLL<>();
-	   CategoryCount = 0;
-	   FoodCount = 0;
-	   FoodLine = 0;
+	 FoodItem = new FoodLL<>();
+	 foodCa = new CateList<>();
+	 CategoryCount = 0;
+	 FoodCount = 0;
+   }
+   private void setFoodItem(FoodLL<String>FoodItem)
+   {
+	   this.FoodItem = FoodItem;
+   }
+   private void setFoodCa(CateList<Object>foodCa)
+   {
+	   this.foodCa = foodCa;
+   }
+   private void setCategoryCount(int CategoryCount)
+   {
+	   this.CategoryCount = CategoryCount;
+   }
+   private void setFoodCount(int FoodCount)
+   {
+	   this.FoodCount = FoodCount;
    }
    public void readFoodCategory()
    {
-	   String line ="";
-	   String fileName = "C:\\git\\RestaurantBussiness\\Menu\\FoodCategorise.txt";
-	   try{
-		   Scanner inputStream = new Scanner(new File(fileName));
-		   while(inputStream.hasNextLine())
-		   {
-			  line = inputStream.nextLine();
-			  foodCa.addLast(line);
-			  CategoryCount++;
-		   }
-		   inputStream.close();
-	   }
-	   catch(FileNotFoundException e)
+	 String line ="";
+	 String fileName = "C:\\git\\RestaurantBussiness\\Menu\\FoodCategorise.txt";
+	 try{
+	   Scanner inputStream = new Scanner(new File(fileName));
+	   while(inputStream.hasNextLine())
 	   {
-		   System.out.println("Cannot find the file "+fileName);
+		 line = inputStream.nextLine();
+		 String file = "C:\\git\\RestaurantBussiness\\Menu\\FoodItems.txt";
+		 try{
+		   Scanner input = new Scanner(new File(file));
+		   while(input.hasNextLine())
+		   {
+			 String newLine = input.nextLine();
+			 String[] ary = newLine.split(";");
+			 String a = ary[0];
+			 if(line.equals(a))
+			   FoodItem.addLast(newLine);
+		   }
+		 input.close();
+		 foodCa.addLast(line,FoodItem);
+		 FoodItem = new FoodLL<>();
+		 CategoryCount++;
+		}
+	    catch(FileNotFoundException e)
+	    {
 		   System.exit(0);
+		}
 	   }
+	   inputStream.close();
+     }
+     catch(FileNotFoundException e)
+	 {
+		System.out.println("Cannot find the file "+fileName);
+		System.exit(0);
+	 }
   }
-  public void readFoodItems()
-  {
-	String fileName = "C:\\git\\RestaurantBussiness\\Menu\\FoodItems.txt";
-    try{
-		Scanner inputStream = new Scanner(new File(fileName));
-		while(inputStream.hasNextLine())
-		{
-		   String line = inputStream.nextLine();
-		   FoodItem.addLast(setString(line));
-		   FoodCount++;
-	    }
-		inputStream.close();
-	}
-	catch(FileNotFoundException e)
-	{
-	    System.out.println("Cannot find the file "+fileName);
-		System.exit(0);
-	}
-   }
-  public void readFoodLines()
-  {
-	FoodLine =0 ;
-	String fileName = "C:\\git\\RestaurantBussiness\\Menu\\FoodItems.txt";
-    try{
-		Scanner inputStream = new Scanner(new File(fileName));
-		while(inputStream.hasNextLine())
-		{
-		   String line = inputStream.nextLine();
-		   FoodList.addLast(line);
-		   FoodLine++;
-	    }
-		inputStream.close();
-	}
-	catch(FileNotFoundException e)
-	{
-	    System.out.println("Cannot find the file "+fileName);
-		System.exit(0);
-	}
-   }
-   public String setString(String lines)
+   public void writeFoods()
    {
-	   String[] ary = lines.split(";");
-	   String a = ary[0];
-	   String name = ary[1];
-	   String prize  =ary[2];
-	   String quality = ary[3];
-	   String size = ary[4];
-	   return name+"  "+prize+"  "+quality+"  "+size;
+	 ObjectOutputStream outputStream = null;
+	 String fileName = "C:\\git\\RestaurantBussiness\\Menu\\Fooddat";
+	 try{
+	   outputStream = new ObjectOutputStream(new FileOutputStream(fileName));
+	 }
+	 catch(IOException e)
+	 {
+	   System.out.println("Cannot find the file "+fileName);
+	   System.exit(0);
+	 }
+	 try{
+	   outputStream.writeObject(foodCa); 
+	   outputStream.flush();
+	   outputStream.close();
+	 }
+	 catch(IOException e)
+	 {
+		 System.exit(0);
+	 }
+   }
+   public void readFoods()
+   {
+	 ObjectInputStream inputStream = null;
+     String fileName = "C:\\git\\RestaurantBussiness\\Menu\\Fooddat";
+	 try{
+	   inputStream = new ObjectInputStream(new FileInputStream(fileName));
+	 }
+	 catch(IOException e)
+	 {
+	   System.out.println("Cannot find the file "+fileName);
+	   System.exit(0);
+	 }
+	 try{
+	   foodCa = (CateList<Object>) inputStream.readObject(); 
+	   inputStream.close();
+	 }
+	 catch(Exception e)
+	 {
+		System.exit(0);
+	 }
    }
    public FoodLL<String> getFoodItems()
    {
 	   return FoodItem;
    }
-   public FoodLL<String> getFoodCate()
+   public CateList<Object> getFoodCate()
    {
 	   return foodCa;
    }
-   public int getcategoryCount()
+   public int getCategoryCount()
    {
 	   return CategoryCount;
    }
    public int getFoodCount()
    {
 	   return FoodCount;
-   }
-   public int getFoodLines()
-   {
-	   return FoodLine;
-   }
-   public FoodLL<String> getFoodList()
-   {
-	   return FoodList;
    }
 }
 

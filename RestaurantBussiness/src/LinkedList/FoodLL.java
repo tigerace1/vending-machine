@@ -23,11 +23,10 @@ public class FoodLL<T> {
 	  current = current.getNext();
   current.setNext(temp);
   listCount++;
-  
  }
  public String getData(int index)
  {
-  if(index < 0)
+  if(index <0)
 	return null;
   Node current = head.getNext();
   for(int i = 0; i < index; i++)
@@ -38,6 +37,22 @@ public class FoodLL<T> {
   }
   return  current.getData();
  } 
+ public T Remove()
+ {
+	 T element = null;
+	 try{
+	 if(isEmpty()) 
+			throw new Exception("Cannot dequeue from an empty list!");
+	 }
+	 catch(Exception e)
+	 {
+		 e.getMessage();
+		 System.exit(0);
+	 }
+	 element = (T) this.head.getData();
+	 this.head = this.head.getNext();
+	 return element;
+ }
  public String toString()
  {
   Node current = head;
@@ -49,5 +64,9 @@ public class FoodLL<T> {
 	current = current.getNext();
   }
   return output;
+ }
+ public boolean isEmpty()
+ {
+  return this.head == null;
  }
 }

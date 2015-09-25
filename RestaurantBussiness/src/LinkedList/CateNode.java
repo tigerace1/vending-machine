@@ -6,7 +6,6 @@ public class CateNode {
  public CateNode(String data2,FoodLL<String> object)
  {
     this.data = data2;
-    object = new FoodLL<String>();
     pointer = null;
     this.list = object;
  }
@@ -17,10 +16,6 @@ public class CateNode {
  public void setList(FoodLL<String> newList)
  {
 	 this.list = newList;
- }
- public void setPointer(CateNode pointer)
- {
-    this.pointer = pointer;
  }
  public FoodLL<String> getList()
  {

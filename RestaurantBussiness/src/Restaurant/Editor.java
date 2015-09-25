@@ -6,24 +6,28 @@ import java.util.Scanner;
 
 import LinkedList.FoodLL;
 public class Editor {
-  private String Category,Name,Prize,Quality,Size,Description;
+  private String Category,Name,Price,Quality,Size,Description;
   public Editor()
   {
 	Category = "";
 	Name = "";
-	Prize = "";
+	Price = "";
 	Quality = "";
 	Size = "";
 	Description ="";
   }
+  private void setData(String c,String n, String p, String q, String s, String d)
+  {
+	this.Category = c;
+	this.Name = n;
+	this.Price = p;
+	this.Quality = q;
+	this.Size = s;
+	this.Description = d;
+  }
   public void EditMenu(String c,String n, String p, String q, String s, String d,String m) 
   {
-	 Category =c;
-	 Name = n;
-	 Prize = p;
-	 Quality = q;
-	 Size = s;
-	 Description = d;
+	 setData(c,n,p,q,s,d); 
 	 EditInfor(m);
   }
   private void EditInfor(String message) 
@@ -74,7 +78,27 @@ public class Editor {
   }
   public String toString()
   {
-	 return Category+";"+Name+";"+Prize+";"+Quality+";"+Size+";"+Description;
+	 return Category+";"+Name+";"+Price+";"+Quality+";"+Size+";"+Description;
+  }
+  public String getName()
+  {
+	  return Name;
+  }
+  public String getCategory()
+  {
+	  return Category;
+  }
+  public String getPrice()
+  {
+	  return Price;
+  }
+  public String getQuality()
+  {
+	  return Quality;
+  }
+  public String getSize()
+  {
+	  return Size;
   }
   public String getDescription()
   {

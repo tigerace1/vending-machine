@@ -1,7 +1,7 @@
 package Restaurant;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.control.ChoiceBox;
+import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
@@ -11,22 +11,43 @@ import javafx.stage.Stage;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 public class AlertWindow {
-  private String message="",category="";
+  private String message,category;
   private TextField A,B,C,D;
   private TextArea New;
-  private ChoiceBox<String> cate;
-  private String food="";
-  private Stage editWindow = new Stage();
+  private ComboBox<String> cate;
+  private String food;
+  private Stage editWindow;
+  public AlertWindow()
+  {
+	 message = "";
+	 category = "";
+	 A = new TextField();
+	 B = new TextField();
+	 C = new TextField();
+	 D = new TextField();
+	 New = new TextArea();
+	 cate = new ComboBox<>();
+	 food = "";
+     editWindow = new Stage();	 
+  }
+  private void setMessage(String newMessage)
+  {
+	  this.message = newMessage;
+  }
+  public void setCategory(String newCategory)
+  {
+	  this.category = newCategory;
+  }
   public void InforWindow(String newMessage)
   {
-    message = newMessage;
+    setMessage(newMessage);
+    MenuInformation infor = new MenuInformation();
 	TextArea TA;
 	Label label;
 	Button button1;
 	Button button2;
 	Button button3;
 	Stage window = new Stage();
-	MenuInformation infor = new MenuInformation();
 	window.setTitle("Chengen Li's restaurant");
 	window.setWidth(370);
 	window.setHeight(340);
@@ -76,7 +97,7 @@ public class AlertWindow {
 	 one.setOnAction(e->{category=cate.getValue();ConfirmEditWindow();});
 	 two.setOnAction(e->editWindow.close());
 	 Label first = new Label("Name:");
-	 Label second = new Label("Prize:");
+	 Label second = new Label("Price:");
 	 Label third = new Label("Quailty:");
 	 Label fourth = new Label("Size:");
 	 Label last = new Label("Edit Pane");
@@ -107,12 +128,7 @@ public class AlertWindow {
 	 String prize = ary[1];
 	 String quality = ary[2];
 	 String size = ary[3];
-	 A = new TextField();
-	 B = new TextField();
-	 C = new TextField();
-	 D = new TextField();
-	 New = new TextArea();
-	 cate = new ChoiceBox<>();
+	 cate.setEditable(true);
 	 New.setWrapText(true);
 	 New.setText(MenuInformation.getLine());
 	 A.setText(name);
@@ -136,7 +152,7 @@ public class AlertWindow {
 	 editWindow.setWidth(500);
 	 FoodItem menu = new FoodItem();
 	 menu.readFoodCategory();
-	 for(int i=0;i<menu.getcategoryCount();i++)
+	 for(int i=0;i<menu.getCategoryCount();i++)
 	    cate.getItems().addAll( menu.getFoodCate().getData(i));
 	 cate.setStyle("-fx-background-color: white;");
 	 cate.setValue(menu.getFoodCate().getData(0));
@@ -188,7 +204,7 @@ public class AlertWindow {
  	 o.setLayoutX(80);
  	 o.setLayoutY(70);
  	 o.setOnAction(e->Exceptionwin.close());
- 	 text.setLayoutX(30);
+ 	 text.setLayoutX(50);
  	 text.setLayoutY(30);
  	 text.setFont(Font.font(18));
  	 text.setTextFill(Color.RED);
@@ -249,10 +265,11 @@ public class AlertWindow {
 	 Label label = new Label("Editing window");
 	 label.setTextFill(Color.BLUEVIOLET);
 	 TextField text = new TextField();
-	 ChoiceBox<String> cate = new ChoiceBox<>();
+	 ComboBox<String> cate = new ComboBox<>();
+	 cate.setEditable(true);
 	 FoodItem edit = new  FoodItem();
 	 edit.readFoodCategory();
-	 for(int i = 0; i<edit.getcategoryCount();i++)
+	 for(int i = 0; i<edit.getCategoryCount();i++)
 		 cate.getItems().add((String) edit.getFoodCate().getData(i));
 	 EditFoodCateWin.setTitle("Edit Category window");
 	 EditFoodCateWin.initModality(Modality.APPLICATION_MODAL);
@@ -318,22 +335,23 @@ public class AlertWindow {
 	 Button E = new Button("Exit");
 	 Label label = new Label("Editing window");
 	 label.setTextFill(Color.BLUEVIOLET);
-	 ChoiceBox<String> cate = new ChoiceBox<>();
+	 ComboBox<String> cate = new ComboBox<>();
 	 FoodItem edit = new  FoodItem();
 	 edit.readFoodCategory();
-	 for(int i = 0; i<edit.getcategoryCount();i++)
+	 for(int i = 0; i<edit.getCategoryCount();i++)
 		cate.getItems().add((String) edit.getFoodCate().getData(i));
 	 DelFoodCateWin.setTitle("Delete Category window");
 	 DelFoodCateWin.initModality(Modality.APPLICATION_MODAL);
 	 DelFoodCateWin.setWidth(200);
 	 DelFoodCateWin.setHeight(150);
-	 c.setLayoutX(120);
-     c.setLayoutY(35);
-     E.setLayoutX(75);
+	 c.setLayoutX(70);
+     c.setLayoutY(80);
+     E.setLayoutX(130);
 	 E.setLayoutY(80);
 	 cate.setLayoutX(15);
 	 cate.setLayoutY(35);
 	 cate.setMinWidth(100);
+	 cate.setEditable(true);
 	 label.setLayoutX(40);
 	 label.setFont(Font.font(16));
 	 c.setOnAction(e->{
@@ -379,13 +397,11 @@ public class AlertWindow {
 	Pane box = new Pane();
 	Button o = new Button("Add");
 	Button E = new Button("Exit");
-	Label label = new Label("Editing window");
+	Label label = new Label("Adding window");
 	label.setTextFill(Color.BLUEVIOLET);
 	TextField text = new TextField();
 	FoodItem add = new FoodItem();
 	add.readFoodCategory();
-	for(int i = 0; i<add.getcategoryCount();i++){ 
-	    String ca = (String) add.getFoodCate().getData(i);}
 	AddFoodCateWin.setTitle("Add Category window");
 	AddFoodCateWin.initModality(Modality.APPLICATION_MODAL);
 	AddFoodCateWin.setWidth(200);
@@ -427,7 +443,8 @@ public class AlertWindow {
 	x.setLayoutX(130);
 	x.setLayoutY(70);
 	x.setOnAction(e->win.close());
-	o.setOnAction(e->{addCa.DelCate(newFood);win.close();});
+	o.setOnAction(e->{addCa.AddCate(newFood);
+	addFood(newFood);win.close();});
 	text.setLayoutX(30);
 	text.setLayoutY(30);
 	text.setFont(Font.font(18));
@@ -435,5 +452,18 @@ public class AlertWindow {
 	box.getChildren().addAll(o,x,text);
 	win.setScene(new Scene(box));
 	win.showAndWait();
+  }
+  private void addFood(String newFood) 
+  {
+	EditorThree addfood = new EditorThree();
+	addfood.addMenu(newFood+"; ; ; ; ; ");
+  }
+  public String getMessage()
+  {
+	  return message;
+  }
+  public String getCategory()
+  {
+	  return category;
   }
 }

@@ -1,4 +1,3 @@
-Cakes;CupCake with diifferent flavor;1.20;good;small&mid;All egg cakes without adding on drop of water, with different topings(chose by customer); rich and sweet.
 Desserts;Caffe Latte;$4.00;good;small;A latte is a coffee drink made with espresso and steamed milk.
 Desserts;Caffe Mocha;$4.00;good;small;A chocolate-flavored variant of a caffè latte
 Desserts;Chocolate Mousse Cake;$4.99;good;mid;A rich,dense,moist chocolate cake
@@ -21,7 +20,16 @@ Ontray;Sausage Stuffed Giant;$12.08;good;mid;In one word: Tasty
 Ontray;Seafood Alfredo;$18.78;good;large;Seafood Alfredo is a pasta dish made from fettuccine tossed with Parmesan cheese and butter. As the cheese melts, it emulifies the liquids to form a smooth and rich coating on the pasta. The term is a synonym for pasta with butter and Parmesan cheese, one of the oldest and simplest ways to prepare pasta.
 Ontray;Steak Gorgonola-Alfredo;$12.60;good;small;Grilled beef medallions drizzled with balsamic glaze, served over fettuccine tossed with spinach and gorgonzola-alfredo sauce.
 Ontray;Steak Toscano;$13.99;good;large;A Large piece of Steak. And it tast good!
+PanCake;Egg Pan cake;$5.69;Very goood;Mid;very good pan cake
+PaneCake;Egg Pan cake;$5.69;Very goood;Mid;very good pan cake
+PaneCake;Egg Pan cake;$5.69;Very goood;Mid;very good pan cake
 Salad;Cranberry Spinach Salad;$6.09;good;mid;Mix with cranberry and spinach(no meat at all), tasty and fresh
+Salad;Home Salad;$5.69;Very goood;Mid;very good homestyle fresh salad
+Salad;Home Salad;$5.69;Very goood;Mid;very good homestyle fresh salad
+Salad;Home Salad;$5.69;Very goood;Mid;very good homestyle fresh salad
+Salad;Home Salad;$5.69;Very goood;Mid;very good homestyle fresh salad
+Salad;Home Salad;$5.69;Very goood;Mid;very good homestyle fresh salad
+Salad;Home Salad;$5.69;Very goood;Mid;very good homestyle fresh salad
 Salad;Mexican Bean Salad;$5.99;good;large;It's colorful, keeps well and is full of flavor without being too spicy or vinegary.
 Salad;Strawberry Spinach Salad;$5.99;good;small;Mix with strawberry and spinach(no meat at all), sweet and tasty
 Salad;Tuna Salad;$8.09;good;mid;Lots of Tuna, and fresh green leave vegetables.
@@ -34,12 +42,20 @@ Soup;Minestrone Soup;$4.76;good;mid;Minestrone is a thick soup of Italian origin
 Soup;Pasta e Fagioli Soup;$6.46;good;large;Pasta e fagioli, meaning "pasta and beans", is a traditional meatless Italian dish. Like many other Italian favorites including pizza and polenta, the dish started as apeasant dish, being composed of inexpensive ingredients.
 Soup;Spicy Chicken Soup;$6.08;good;mid;Chicken soup is a soup made from chicken, simmered in water, usually with various other ingredients. The classic chicken soup consists of a clean broth, often with pieces of chicken or vegetables.
 Soup;Zuppa Toscana Soup;$5.09;good;small;Zuppa toscana ("soup in the style of Tuscany")is an Italian soup made with Italian sausage,crushed red peppers, diced white onion, bacon, garlic puree, chicken bouillon, heavy cream,and potatoes.
-Wine&Drinks;Beer;$2.60;good;a large cup;jjjj
-Wine&Drinks;Bellini Peach-Raspberry;$2.89;good;large; v 
-Wine&Drinks;Coke;$1.99;good;mid;vv
-Wine&Drinks;Fresh Brewed Iced Tea;$2.59;good;large;  v
-Wine&Drinks;Grape Juice;$1.99;good;mid;vv
-Wine&Drinks;Orange Juice;$1.99;good;mid;vvv
-Wine&Drinks;Raspberry Lemonade;$2.89;good;mid; vv
-Wine&Drinks;Red Wine;$2.99($45);best;a wine cup;vvv
-Wine&Drinks;Whiskey;$3.89;good;small;vvv
+Wine&Drinks;Beer;$2.60;good;a large cup;hh
+Wine&Drinks;Bellini Peach-Raspberry;$2.89;good;large;dd
+Wine&Drinks;Coke;$1.99;good;mid;aa
+Wine&Drinks;Fresh Brewed Iced Tea;$2.59;good;large;ss
+Wine&Drinks;Grape Juice;$1.99;good;mid;ss
+Wine&Drinks;Orange Juice;$1.99;good;mid;dd
+Wine&Drinks;Raspberry Lemonade;$2.89;good;mid;dd
+Wine&Drinks;Red Wine;$2.99($45);best;a wine cup;gg
+Wine&Drinks;Whiskey;$3.69;good;small;ff
+Salad;Home Salad;$5.69;Very goood;Mid;very good homestyle fresh salad
+PanCake;Egg Pan cake;$5.69;Very goood;Mid;very good pan cake
+Salad;Home Salad;$5.69;Very goood;Mid;very good homestyle fresh salad
+PanCake;Egg Pan cake;$5.69;Very goood;Mid;very good pan cake
+Salad;Home Salad;$5.69;Very goood;Mid;very good homestyle fresh salad
+PanCake;Egg Pan cake;$5.69;Very goood;Mid;very good pan cake
+Salad;Home Salad;$5.69;Very goood;Mid;very good homestyle fresh salad
+PanCake;Egg Pan cake;$5.69;Very goood;Mid;very good pan cake

@@ -1,7 +1,6 @@
 package Restaurant;
-
 import java.util.Scanner;
-
+import LinkedList.FoodLL;
 public class Driver {
   public static void main(String[] args)
   {
@@ -14,26 +13,18 @@ public class Driver {
 		  GUI.main(args);
 	  }
 	  else{
-		  Restaurant();
+		  Test test = new Test();
+		  test.Restaurant();
+		  test.adding();
+		  test.editing();
+		  test.deleting();
+		  test.addCate();
+		  test.editCate();
+		  test.deleteCate();
+		  test.remove();
+		  test.removeCate();
 	  }
   }
-  private static void Restaurant() 
-  {
-	  System.out.println("Here is the menu:");  
-	  FoodItem menu = new FoodItem();
-	  menu.readFoodLines();
-	  String Menu="";
-	  int i =0;
-	  for(i=0; i<menu.getFoodLines();i++)
-	  {
-		 Menu = menu.getFoodList().getData(i);
-	     String[]ary = Menu.split(";");
-	     String cate = ary[0];
-	     String name = ary[1];
-	     String prize = ary[2];
-	     String quality = ary[3];
-	     String size = ary[4];
-	     System.out.println((i+1)+". Category: "+cate+" name: "+name+" prize: "+prize+" quality: "+quality+" size: "+size);
-	  } 
-  }
-}
+
+ }
+

@@ -1,10 +1,9 @@
 package Restaurant;
-import java.util.Collections;
-
+import LinkedList.FoodLL;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.control.ChoiceBox;
+import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextArea;
@@ -16,16 +15,17 @@ import javafx.stage.Stage;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 public class GraphInterface extends Application{
-  Button button1,button2,button3,button4,button5,button6,button7;
-  Label title,B, C,D,E;
-  ChoiceBox<String> Search1;
-  BorderPane layout;
-  TextField Search2;
-  ListView<String> listAll,listChoice;
-  Stage addWindow;
-  Pane window;
-  Stage stage;
-  public static void main(String[] args){
+  private Button button1,button2,button3,button4,button5,button6,button7,button8;
+  private Label title,B,C,D,E;
+  private ComboBox<String> Search1;
+  private BorderPane layout;
+  private ListView<Object> listAll,listChoice;
+  private Stage addWindow,stage;
+  private Pane window;
+  private FoodLL<String> foodList;
+  private TextField Search2;
+  public static void main(String[] args)
+  {
 	  launch(args);
   }
   public void start(Stage primaryStage) throws Exception {
@@ -34,7 +34,7 @@ public class GraphInterface extends Application{
     stage.setTitle("Chengen Li's restaurant");
     setting(scene);
     button6.setOnAction(e->{listChoice.getItems().clear();
-    listAll.getItems().clear();
+    listAll.getItems().clear();setMenu();
     setLinkedList();Searching(Search1);
     });
     stage.show();
@@ -44,33 +44,55 @@ public class GraphInterface extends Application{
     window = new Pane();
     Pane win = new Pane();
 	layout = new BorderPane();
-	Search1 = new ChoiceBox<>();
+	Search1 = new ComboBox<>();
 	AlertWindow show = new AlertWindow();
 	setLabel();
 	setMenu();
 	setButton();
-	setTextField();
 	setListView();
 	setLinkedList();
+	setTextField();
 	button1.setOnAction(e-> InformationWindow());
 	button2.setOnAction(e->System.exit(0));
-	button3.setOnAction(e-> {listChoice.setVisible(true);
+	button3.setOnAction(e-> {listAll.setVisible(false);
 	listChoice.setVisible(true);Searching(Search1);});
 	button4.setOnAction(e->addingWindow());
 	button5.setOnAction(e->DeleteFood());
 	button7.setOnAction(e->show.EditFoodCateWindow());
-	win.getChildren().addAll(button4,button5,button6,button3,Search1);
+	button8.setOnAction(e->SendData());
+	win.getChildren().addAll(button4,button5,button3,Search1,button7);
 	layout.setTop(win);
 	layout.setCenter(window);
-	window.getChildren().addAll(title,button1,button2,button7,B,C,D,E);
+	window.getChildren().addAll(title,button1,button2,button6,button8,Search2,B,C,D,E);
 	window.getChildren().addAll(listAll,listChoice);
     scene = new Scene(layout,360,500,Color.LIGHTGREEN);
 	stage.setScene(scene);
   }
+  private void SendData() 
+  {
+	String infor = Search2.getText();
+	FoodItem menu = new FoodItem();
+	listAll.getItems().clear();
+    menu.readFoodCategory();
+    for(int i=0; i<menu.getCategoryCount();i++){
+      int j=0;
+      foodList = menu.getFoodCate().getList(i);
+      while(foodList.getData(j)!=null)
+      {
+    	String[] ary = foodList.getData(j).split("  ");
+    	String name = ary[0];
+    	if(infor.equalsIgnoreCase(name))
+           listAll.getItems().add(foodList.getData(j));
+        j++;
+      }
+    }
+    listChoice.setVisible(false);
+    listAll.setVisible(true);	
+  }
   private void setListView()
   {
-    listChoice = new ListView<String>();
-	listAll = new ListView<String>();
+    listChoice = new ListView<>();
+	listAll = new ListView<>();
     listChoice.setVisible(false);
     listChoice.setLayoutY(70);
     listAll.setLayoutY(70);
@@ -85,38 +107,50 @@ public class GraphInterface extends Application{
   {
     FoodItem menu = new FoodItem();
     listAll.getItems().clear();
-    menu.readFoodItems();
-    for(int i=0; i<menu.getFoodCount();i++)
-       listAll.getItems().add(menu.getFoodItems().getData(i));
-    Collections.sort(listAll.getItems());
+    foodList = new FoodLL<>();
+    menu.readFoodCategory();
+    for(int i=0; i<menu.getCategoryCount();i++){
+      int j=0;
+      foodList = menu.getFoodCate().getList(i);
+      while(foodList.getData(j)!=null)
+      {
+    	String[] ary = foodList.getData(j).split(";");
+	    listAll.getItems().add(ary[1]+"  "+ary[2]+"  "+ary[3]+"  "+ary[4]);
+        j++;
+      }
+    }
+    listAll.getItems().sorted();
     listChoice.setVisible(false);
     listAll.setVisible(true);
   }
   private void setTextField()
   {
 	Search2 = new TextField();
-	Search2.setMaxWidth(130);
 	Search2.setLayoutX(5);
 	Search2.setLayoutY(440);
+	Search2.setMinWidth(120);
+	Search2.setText("Searching food");
   }
   private void setMenu()
   {
 	FoodItem menu = new FoodItem();
+	Search1.setEditable(true);
 	Search1.getItems().clear();
+	Search1.setValue("Soup");
 	menu.readFoodCategory();
-	for(int i=0;i<menu.getcategoryCount();i++)
+	for(int i=0;i<menu.getCategoryCount();i++)
 	  Search1.getItems().addAll(menu.getFoodCate().getData(i));
 	Search1.getItems().sorted();
-    Search1.setLayoutX(206);
-    Search1.setMinWidth(100);
-    Search1.setMaxWidth(100);
+    Search1.setLayoutX(200);
+    Search1.setMinWidth(110);
+    Search1.setMaxWidth(110);
     Search1.setStyle("-fx-background-color: white;");
   }
   private void setLabel()
   {
 	title = new Label("Restaurant Menu");
 	B = new Label("Name:");
-	C = new Label("Prize:");
+	C = new Label("Price:");
 	D = new Label("Quantity:");
 	E = new Label("Size:");
 	B.setTextFill(Color.GREEN);
@@ -148,8 +182,7 @@ public class GraphInterface extends Application{
 	button5 = new Button("-");
 	button6 = new Button("F5");
 	button7 = new Button("Food Category Window");
-    button1.setTextFill(Color.DEEPSKYBLUE);
-	button2.setTextFill(Color.RED);
+	button8 = new Button("Send");
 	button1.setStyle("-fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );");
 	button2.setStyle("-fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );");
 	button3.setStyle("-fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );");
@@ -157,40 +190,45 @@ public class GraphInterface extends Application{
 	button5.setStyle("-fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );");
 	button6.setStyle("-fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );");
 	button7.setStyle("-fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );");
+	button8.setStyle("-fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );");
+	button1.setTextFill(Color.DEEPPINK);
+    button2.setTextFill(Color.BLUEVIOLET);
 	button3.setTextFill(Color.DEEPSKYBLUE);
 	button4.setTextFill(Color.DEEPPINK);
 	button5.setTextFill(Color.DEEPPINK);
 	button6.setTextFill(Color.DEEPPINK);
 	button7.setTextFill(Color.DEEPSKYBLUE);
+	button8.setTextFill(Color.DEEPPINK);
     button1.setLayoutY(440);
 	button1.setLayoutX(220);
 	button2.setLayoutY(440);
 	button2.setLayoutX(310);
 	button3.setLayoutX(310);
 	button5.setLayoutX(26);
-	button6.setLayoutX(47);
-	button7.setLayoutY(440);
-	button7.setLayoutX(20);
+	button7.setLayoutX(50);
+	button8.setLayoutX(160);
+	button8.setLayoutY(440);
   }
-  private void Searching(ChoiceBox<String> choice ) 
+  private void Searching(ComboBox<String> choice ) 
   {
 	String food = choice.getValue();
 	FoodItem list = new FoodItem();
 	listChoice.getItems().clear();
-	list.readFoodLines();
+	list.readFoodCategory();
 	String lines = "";
-	for(int i=0;i<list.getFoodLines();i++)
+	for(int i=0;i<list.getCategoryCount();i++)
 	{
-		lines = list.getFoodList().getData(i);
-		String[] ary = lines.split(";");
-		String category = ary[0];
-		String name = ary[1];
-		String prize = ary[2];
-		String quality = ary[3];
-		String size = ary[4];
-		String items = name+"  "+prize+"  "+quality+"  "+size;
-		if(category.equalsIgnoreCase(food))
-			listChoice.getItems().addAll(items);
+	  lines = list.getFoodCate().getData(i);
+	  if(lines.equalsIgnoreCase(food)){
+	    int j=0;
+	    foodList = list.getFoodCate().getList(i);
+	    while(foodList.getData(j)!=null)
+	    {
+	      String[] ary = foodList.getData(j).split(";");
+	      listChoice.getItems().add(ary[1]+"  "+ary[2]+"  "+ary[3]+"  "+ary[4]);
+	      j++;
+	    }
+	  }
 	}
   }
   private void confirmDeleteWindow(String message) 
@@ -223,9 +261,10 @@ public class GraphInterface extends Application{
   private void DeleteFood() 
   {
 	String message="";
-	if(listAll.isVisible()==true)
+	if(listAll.isVisible())
 	  message = (String) listAll.getSelectionModel().getSelectedItem();
 	else
+	if(listChoice.isVisible())
 	  message = (String) listChoice.getSelectionModel().getSelectedItem();
 	try{
 		if(message.equals(""))
@@ -268,7 +307,8 @@ public class GraphInterface extends Application{
 	d = new TextField();
 	New = new TextArea();
 	Pane addPane = new Pane();
-	ChoiceBox<String> cate = new ChoiceBox<>();
+	ComboBox<String> cate = new ComboBox<>();
+	cate.setEditable(true);
 	addWindow.setTitle("Adding window");
 	addWindow.initModality(Modality.APPLICATION_MODAL);
 	Button one = new Button("Submit");
@@ -276,24 +316,25 @@ public class GraphInterface extends Application{
 	FoodItem menu = new FoodItem();
 	cate.getItems().clear();
 	menu.readFoodCategory();
-	for(int i=0;i<menu.getcategoryCount();i++)
+	for(int i=0;i<menu.getCategoryCount();i++)
        cate.getItems().addAll((String) menu.getFoodCate().getData(i));
 	cate.setValue("Soup");
 	one.setOnAction(e->{
 	if(a.getText().equals(""))
-	  a.setText("  ");
+	  a.setText("?");
 	if(b.getText().equals(""))
-	  b.setText("  ");	
+	  b.setText("?");	
 	if(c.getText().equals(""))
-	  c.setText("  ");
+	  c.setText("?");
 	if(d.getText().equals(""))
-	  d.setText("  ");
+	  d.setText("?");
 	if(New.getText().equals(""))
-	  New.setText("  ");
-	ConfirmAddingWindow(a.getText(),b.getText(),c.getText(),d.getText(),New.getText(),cate.getValue());});
+	  New.setText("No description");
+	String Message = cate.getValue()+";"+a.getText()+";"+b.getText()+";"+c.getText()+";"+d.getText()+";"+New.getText();
+	ConfirmAddingWindow(Message);});
 	two.setOnAction(e->addWindow.close());
 	Label first = new Label("Name:");
-	Label second = new Label("Prize:");
+	Label second = new Label("Price:");
 	Label third = new Label("Quailty:");
 	Label fourth = new Label("Size:");
 	Label last = new Label("Edit Pane");
@@ -331,7 +372,7 @@ public class GraphInterface extends Application{
  	addWindow.setScene(new Scene(addPane));
  	addWindow.showAndWait();
   }
-  private void ConfirmAddingWindow(String n, String p, String q,String s, String d, String c) {
+  private void ConfirmAddingWindow(String Message) {
 	Stage win = new Stage();
 	Pane box = new Pane();
 	EditorThree Add = new EditorThree();
@@ -347,7 +388,7 @@ public class GraphInterface extends Application{
 	x.setLayoutX(130);
 	x.setLayoutY(70);
 	x.setOnAction(e->win.close());
-	o.setOnAction(e->{Add.addMenu(n,p,q,s,d,c);win.close();
+	o.setOnAction(e->{Add.addMenu(Message);win.close();
 	addWindow.close();});
 	text.setLayoutX(10);
 	text.setLayoutY(30);
@@ -356,5 +397,9 @@ public class GraphInterface extends Application{
 	box.getChildren().addAll(o,x,text);
 	win.setScene(new Scene(box));
 	win.showAndWait();
+  }
+  public FoodLL<String> getFoodList()
+  {
+	  return foodList;
   }
 }

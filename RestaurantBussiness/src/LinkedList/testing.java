@@ -8,9 +8,9 @@ public class testing {
   public static void main(String[] args)
   {
 	  FoodLL foodCa = new FoodLL();
-	  foodCa.add("ss");
-	  foodCa.add("dd");
-	  foodCa.add("gg");
-	  System.out.println(foodCa.toString());
+	  foodCa.addLast("ss");
+	  foodCa.addLast("dd");
+	  foodCa.addLast("gg");
+	  System.out.println(foodCa.getData(3));
 	  }
 }
