@@ -1,6 +1,5 @@
 package Restaurant;
 import java.util.Scanner;
-import LinkedList.FoodLL;
 public class Driver {
   public static void main(String[] args)
   {
@@ -14,7 +13,7 @@ public class Driver {
 	  }
 	  else{
 		  Test test = new Test();
-		  test.Restaurant();
+		  test.restaurant();
 		  test.adding();
 		  test.editing();
 		  test.deleting();
@@ -24,7 +23,6 @@ public class Driver {
 		  test.remove();
 		  test.removeCate();
 	  }
-  }
-
+   }
  }
 

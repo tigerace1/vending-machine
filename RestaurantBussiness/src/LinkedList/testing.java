@@ -7,10 +7,10 @@ import java.util.Scanner;
 public class testing {
   public static void main(String[] args)
   {
-	  FoodLL foodCa = new FoodLL();
-	  foodCa.addLast("ss");
-	  foodCa.addLast("dd");
-	  foodCa.addLast("gg");
-	  System.out.println(foodCa.getData(3));
+	  FoodLL food = new FoodLL();
+	  food.addLast("ss");
+	  food.addLast("dd");
+	  food.addLast("gg");
+	  System.out.println(food.getData(2));
 	  }
 }

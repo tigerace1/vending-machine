@@ -37,7 +37,7 @@ public class FoodLL<T> {
   }
   return  current.getData();
  } 
- public T Remove()
+ public T remove()
  {
 	 T element = null;
 	 try{
@@ -60,7 +60,7 @@ public class FoodLL<T> {
   while(current != null)
   {
     if(current.getData()!=null)
-	  output += current.getData().toString();
+	  output += current.getData().toString()+"\n";
 	current = current.getNext();
   }
   return output;
@@ -68,5 +68,9 @@ public class FoodLL<T> {
  public boolean isEmpty()
  {
   return this.head == null;
+ }
+ public int getCount()
+ {
+  return listCount;
  }
 }

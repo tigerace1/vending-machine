@@ -1,0 +1,46 @@
+Desserts;Pumpkin Cheesecake;$6.99;good;small;This is a delicious, creamy, spicy cheesecake! If you like pumpkin pie, this is a creamy version -- dense and flavorful!
+Desserts;Seasonal Sicilian;$6.49;good;mid;Sweet & flavorful
+Desserts;Tiramisu;$6.49;good;mid;A popular coffee-flavored Italian dessert. It is made of ladyfingers  dipped in coffee,layered with a whipped mixture of eggs, sugar, and mascarpone cheese, flavoured with cocoa.
+Desserts;Chocolate Mousse Cake;$4.99;good;mid;A rich,dense,moist chocolate cake
+Desserts;Lemon Cream Cake;$6.39;good;mid;From its' snowy white marshmallowy frosting that is enveloped in shreds of dried coconut, to the layers of moist and sweet butter cake sandwiched together with a tangy lemon curd. 
+Desserts;Zeppoli;$6.49;good;mid;This doughnut or fritter is usually topped with powdered sugar, and may be filled with custard, jelly, cannoli-style pastry cream, or a butter-and-honey mixture. The consistency ranges from light and puffy, to bread- or pasta-like.
+Desserts;Sundae;$1.79;good;large;Wonderful ice-cream with strawberry, bluebrerry and other 5 flavor jam.
+Desserts;Caffe Mocha;$4.00;good;small;A chocolate-flavored variant of a caffè latte
+Desserts;Caffe Latte;$4.05;good;small;A latte is a coffee drink made with espresso and steamed milk.
+Desserts;Herbal& Flavored Hot Teas;$2.49;good;small;The best tea ever.
+Ontray;Baked Parmesan Shrimp;$15.99;good;mid;Baked shrimp with butter and Parmesan cheese and bread crumbs.
+Ontray;Herb-Grilled Salmon;$13.99;good;mid;Grilled Salmon with Herb Crust. Finely chopped herbs create a flavorful crust on this grilled salmon, which is low in both calories and sodium
+Ontray;Seafood Alfredo;$18.78;good;large;Seafood Alfredo is a pasta dish made from fettuccine tossed with Parmesan cheese and butter. As the cheese melts, it emulifies the liquids to form a smooth and rich coating on the pasta. The term is a synonym for pasta with butter and Parmesan cheese, one of the oldest and simplest ways to prepare pasta.
+Ontray;Baked Tilapia with Shrimp;$15.70;good;mid;Bake whole fish with a crab or shrimp stuffing. 
+Ontray;Steak Toscano;$13.99;good;large;A Large piece of Steak. And it tast good!
+Ontray;Steak Gorgonola-Alfredo;$12.60;good;small;Grilled beef medallions drizzled with balsamic glaze, served over fettuccine tossed with spinach and gorgonzola-alfredo sauce.
+Ontray;Chicken Alfredo;$13.54;good;mid;Chilken Alfredo is a pasta dish made from fettuccine tossed with Parmesan cheese and butter. As the cheese melts, it emulsifies the liquids to form a smooth and rich coating on the pasta. The term is a synonym for pasta with butter and Parmesan cheese, one of the oldest and simplest ways to prepare pasta.
+Ontray;Garlic Rosermary Chicken;$14.00;good;mid;Cover the chicken breasts with garlic, then sprinkle with rosemary, lemon juice, and salt and pepper to taste.
+Ontray;Chicken Marsala;$14.09;good;mid;Chicken marsala is an Italian-American dish made from chicken cutlets, mushrooms, and Marsala wine.
+Ontray;Sausage Stuffed Giant;$12.08;good;mid;In one word: Tasty
+Ontray;Cheese Ravioli;$11.99;good;mid;Fresh pasta filled with ricotta cheese, cream cheese, mozzarella cheese, and provolone cheese is drizzled with marinara sauce and finished with a pesto-Alfredo cream...
+Ontray;Ravioli di Portobello;$15.23;good;large;Light and heathy 
+Salad;Tuna Salad;$8.09;good;mid;Lots of Tuna, and fresh green leave vegetables.
+Salad;Cranberry Spinach Salad;$6.09;good;mid;Mix with cranberry and spinach(no meat at all), tasty and fresh
+Salad;Strawberry Spinach Salad;$5.99;good;small;Mix with strawberry and spinach(no meat at all), sweet and tasty
+Salad;Mexican Bean Salad;$5.99;good;large;It's colorful, keeps well and is full of flavor without being too spicy or vinegary.
+Soup;Chicken & Gnocchi Soup;$5.46;good;mid;This soup features roasted chicken, potato gnocchi, carrots,celery,andspinach. Soup warms the soul, and this soup is no exception. It is not likely that you will have any soup left over when you make this tasty soup.
+Soup;Pasta e Fagioli Soup;$6.46;good;large;Pasta e fagioli, meaning "pasta and beans", is a traditional meatless Italian dish. Like many other Italian favorites including pizza and polenta, the dish started as apeasant dish, being composed of inexpensive ingredients.
+Soup;Minestrone Soup;$4.76;good;mid;Minestrone is a thick soup of Italian origin made with vegetables, often with the additionof pasta or rice. Common ingredients include beans, onions, celery, carrots, stock, and tomatoes.
+Soup;Zuppa Toscana Soup;$5.09;good;small;Zuppa toscana ("soup in the style of Tuscany")is an Italian soup made with Italian sausage,crushed red peppers, diced white onion, bacon, garlic puree, chicken bouillon, heavy cream,and potatoes.
+Soup;Spicy Chicken Soup;$6.08;good;mid;Chicken soup is a soup made from chicken, simmered in water, usually with various other ingredients. The classic chicken soup consists of a clean broth, often with pieces of chicken or vegetables.
+Soup;Hamburger Vegetable Soup;$5.46;good;large;A simple soup made with ground beef and vegetables.
+Soup;Butternut Squash Soup;$6.24;good;small;his luxurious tasting, mildly spicy soup has not a drop of cream in it. The secret to its richness is Glace de Canard Gold complemented with unsweetened aplesauce.
+Soup;Broccoli Cheese Soup;$5.96;good;mid;A cream based soup with a flavorful blend of cheddar cheese and tender broccoli florets. 
+Soup;Ham and Potato Soup;$4.99;good;mid;his is a baked potato soupwith butter, green onions,bacon, cheddar cheese sour cream,and seasonings.
+Wine&Drinks;Bellini Peach-Raspberry;$2.89;good;large;dd
+Wine&Drinks;Fresh Brewed Iced Tea;$2.59;good;large;dd
+Wine&Drinks;Raspberry Lemonade;$2.89;good;mid;dd
+Wine&Drinks;Coke;$1.99;good;mid;ddd
+Wine&Drinks;Grape Juice;$1.99;good;mid;fff
+Wine&Drinks;Orange Juice;$1.99;good;mid;gg
+Wine&Drinks;Red Wine;$2.99($45);best;a wine cup;ffff
+Wine&Drinks;Whiskey;$3.69;good;small;dd
+Wine&Drinks;Beer;$2.60;good;a large cup;ffff
+PanCake;Cup cake;$1.99;Good;big;very good
+Sdd;ddd;?;?;?;No Description

@@ -34,13 +34,14 @@ public class AlertWindow {
   {
 	  this.message = newMessage;
   }
-  public void setCategory(String newCategory)
+  private void setCategory(String newCategory)
   {
 	  this.category = newCategory;
   }
-  public void InforWindow(String newMessage)
+  public void inforWindow(String newMessage,String cate)
   {
     setMessage(newMessage);
+    setCategory(cate);
     MenuInformation infor = new MenuInformation();
 	TextArea TA;
 	Label label;
@@ -77,24 +78,25 @@ public class AlertWindow {
 	button3.setLayoutY(260);
 	button3.setTextFill(Color.ORANGERED);
 	TA.setEditable(false);
-	TA.setText(infor.DisplayInfor(message));
+	TA.setText(infor.displayInfor(message));
 	button1.setOnAction(e -> window.close());
 	button2.setOnAction(e-> window.close());
-	button3.setOnAction(e-> EditWindow());
+	button3.setOnAction(e-> editWindow());
 	Pane box = new Pane();
 	box.getChildren().addAll(button1,button2,button3,TA,label);
+	box.setStyle("-fx-background-color: lightyellow");
 	window.setScene(new Scene(box));
 	window.showAndWait();
   }
-  public void EditWindow()
+  public void editWindow()
   {
 	 Pane editPane = new Pane();
+	 editPane.setStyle("-fx-background-color: lightyellow");
 	 setEditWindow();
 	 editWindow.setTitle("Edit window");
-	 editWindow.initModality(Modality.APPLICATION_MODAL);
 	 Button one = new Button("Submit");
 	 Button two = new Button("Cancel");
-	 one.setOnAction(e->{category=cate.getValue();ConfirmEditWindow();});
+	 one.setOnAction(e->{category=cate.getValue();confirmEditWindow();});
 	 two.setOnAction(e->editWindow.close());
 	 Label first = new Label("Name:");
 	 Label second = new Label("Price:");
@@ -155,11 +157,12 @@ public class AlertWindow {
 	 for(int i=0;i<menu.getCategoryCount();i++)
 	    cate.getItems().addAll( menu.getFoodCate().getData(i));
 	 cate.setStyle("-fx-background-color: white;");
-	 cate.setValue(menu.getFoodCate().getData(0));
+	 cate.setValue(category);
   }
-  private void ConfirmEditWindow() {
+  private void confirmEditWindow() {
 	Stage win = new Stage();
 	Pane box = new Pane();
+	box.setStyle("-fx-background-color: lightyellow");
 	Label text = new Label("Are you Sure the changes?");
 	Button o = new Button("Yes");
 	Button x = new Button("No");
@@ -172,7 +175,7 @@ public class AlertWindow {
 	x.setLayoutX(130);
 	x.setLayoutY(70);
 	x.setOnAction(e->win.close());
-	o.setOnAction(e->{Edit();win.close();editWindow.close();});
+	o.setOnAction(e->{Edit();save();;win.close();editWindow.close();});
 	text.setLayoutX(10);
 	text.setLayoutY(30);
 	text.setFont(Font.font(18));
@@ -183,18 +186,15 @@ public class AlertWindow {
    }
    private void Edit() {
      Editor edit = new Editor();
-     String name = A.getText();
-     String prize = B.getText();
-     String quality = C.getText();
-     String size = D.getText();
-     String description = New.getText();
-     edit.EditMenu(category,name,prize,quality,size,description,message);
+     String newLine = category+";"+A.getText()+";"+B.getText()+";"+C.getText()+";"+D.getText()+";"+New.getText();
+     edit.EditMenu(newLine,message);
      New.setText(edit.getDescription());
    }
-   void ExceptionWindow()
+   void exceptionWindow()
    {
  	 Stage Exceptionwin = new Stage();
  	 Pane box = new Pane();
+ 	 box.setStyle("-fx-background-color: lightyellow");
  	 Label text = new Label("Null Value");
  	 Button o = new Button("OK");
  	 Exceptionwin.setTitle("Exception window");
@@ -212,10 +212,11 @@ public class AlertWindow {
  	 Exceptionwin.setScene(new Scene(box));
  	 Exceptionwin.showAndWait();
    }
-   void EditFoodCateWindow() 
+   void editFoodCateWindow() 
    {
 	 Stage FoodCateWin = new Stage();
 	 Pane box = new Pane();
+	 box.setStyle("-fx-background-color: lightyellow");
 	 Label text = new Label("Food Categorise Window");
 	 text.setFont(Font.font(16));
 	 Button a = new Button("Adding food categorise");
@@ -259,8 +260,8 @@ public class AlertWindow {
    {
 	 Stage EditFoodCateWin = new Stage();
 	 Pane box = new Pane();
+	 box.setStyle("-fx-background-color: lightyellow");
 	 Button o = new Button("OK");
-	 Button c = new Button("Select");
 	 Button E = new Button("Exit");
 	 Label label = new Label("Editing window");
 	 label.setTextFill(Color.BLUEVIOLET);
@@ -277,11 +278,10 @@ public class AlertWindow {
 	 EditFoodCateWin.setHeight(200);
 	 o.setLayoutX(130);
 	 o.setLayoutY(75);
-	 c.setLayoutX(130);
-	 c.setLayoutY(35);
-	 cate.setLayoutX(10);
+	 cate.setLayoutX(8);
 	 cate.setLayoutY(35);
-	 cate.setMinWidth(100);
+	 cate.setMinWidth(120);
+	 cate.setMaxWidth(120);
 	 E.setLayoutX(80);
 	 E.setLayoutY(120);
 	 text.setLayoutX(10);
@@ -289,15 +289,15 @@ public class AlertWindow {
 	 text.setMaxWidth(100);
 	 label.setLayoutX(30);
 	 label.setFont(Font.font(16));
-     c.setOnAction(e->{
+     cate.getSelectionModel().selectedIndexProperty().addListener((v,oldValue,newValue)->{
      try{food = cate.getValue();
-      if(food.equals(""))
+      if(newValue.equals(""))
     	throw new Exception();
      }catch(Exception R){
-     ExceptionWindow();}text.setText(food);});
+     exceptionWindow();}text.setText(food);});
 	 o.setOnAction(e->confirmEditCate(text.getText()));
 	 E.setOnAction(e->EditFoodCateWin.close());
-	 box.getChildren().addAll(o,c,E,cate,text,label);
+	 box.getChildren().addAll(o,E,cate,text,label);
 	 EditFoodCateWin.setScene(new Scene(box));
 	 EditFoodCateWin.showAndWait();	 
    }
@@ -305,6 +305,7 @@ public class AlertWindow {
    {
 	 Stage win = new Stage();
 	 Pane box = new Pane();
+	 box.setStyle("-fx-background-color: lightyellow");
 	 Editor editCa = new Editor();
 	 Label text = new Label("Are you Sure the changes?");
 	 Button o = new Button("Yes");
@@ -318,7 +319,8 @@ public class AlertWindow {
 	 x.setLayoutX(130);
 	 x.setLayoutY(70);
 	 x.setOnAction(e->win.close());
-	 o.setOnAction(e->{editCa.EditCate(message,food);win.close();});
+	 o.setOnAction(e->{editCa.EditCate(message,food);
+	 save();win.close();});
 	 text.setLayoutX(10);
 	 text.setLayoutY(30);
 	 text.setFont(Font.font(18));
@@ -331,6 +333,7 @@ public class AlertWindow {
    {
 	 Stage DelFoodCateWin = new Stage();
 	 Pane box = new Pane();
+	 box.setStyle("-fx-background-color: lightyellow");
 	 Button c = new Button("Delete");
 	 Button E = new Button("Exit");
 	 Label label = new Label("Editing window");
@@ -348,9 +351,9 @@ public class AlertWindow {
      c.setLayoutY(80);
      E.setLayoutX(130);
 	 E.setLayoutY(80);
-	 cate.setLayoutX(15);
+	 cate.setLayoutX(23);
 	 cate.setLayoutY(35);
-	 cate.setMinWidth(100);
+	 cate.setMaxWidth(120);
 	 cate.setEditable(true);
 	 label.setLayoutX(40);
 	 label.setFont(Font.font(16));
@@ -358,8 +361,9 @@ public class AlertWindow {
 	 try{food = cate.getValue();
 	   if(food.equals(""))
 	     throw new Exception();
+	  confirmDelCateWindow(food);
 	 }catch(Exception R){
-	   ExceptionWindow();}confirmDelCateWindow(food);});
+	   exceptionWindow();}});
 	 E.setOnAction(e->DelFoodCateWin.close());
 	 box.getChildren().addAll(c,E,cate,label);
 	 DelFoodCateWin.setScene(new Scene(box));
@@ -369,6 +373,7 @@ public class AlertWindow {
    {
 	 Stage win = new Stage();
 	 Pane box = new Pane();
+	 box.setStyle("-fx-background-color: lightyellow");
 	 EditorTwo delCa = new EditorTwo();
 	 Label text = new Label("Are you Sure to delete?");
 	 Button o = new Button("Yes");
@@ -382,7 +387,8 @@ public class AlertWindow {
 	 x.setLayoutX(130);
 	 x.setLayoutY(70);
 	 x.setOnAction(e->win.close());
-	 o.setOnAction(e->{delCa.DelCate(message);win.close();});
+	 o.setOnAction(e->{delCa.delCate(message);
+	 save();win.close();});
 	 text.setLayoutX(20);
 	 text.setLayoutY(30);
 	 text.setFont(Font.font(18));
@@ -395,6 +401,7 @@ public class AlertWindow {
    {
 	Stage AddFoodCateWin = new Stage();
 	Pane box = new Pane();
+	box.setStyle("-fx-background-color: lightyellow");
 	Button o = new Button("Add");
 	Button E = new Button("Exit");
 	Label label = new Label("Adding window");
@@ -420,7 +427,7 @@ public class AlertWindow {
 	  if(food.equals(""))
 		throw new Exception();
 	}catch(Exception R){
-	  ExceptionWindow();}confirmAddCateWindow(food);});
+	  exceptionWindow();}confirmAddCateWindow(food);});
 	E.setOnAction(e->AddFoodCateWin.close());
 	box.getChildren().addAll(o,E,text,label);
 	AddFoodCateWin.setScene(new Scene(box));
@@ -430,6 +437,7 @@ public class AlertWindow {
   {
     Stage win = new Stage();
 	Pane box = new Pane();
+	box.setStyle("-fx-background-color: lightyellow");
 	EditorThree addCa = new EditorThree();
 	Label text = new Label("Are you Sure to add?");
 	Button o = new Button("Yes");
@@ -443,8 +451,8 @@ public class AlertWindow {
 	x.setLayoutX(130);
 	x.setLayoutY(70);
 	x.setOnAction(e->win.close());
-	o.setOnAction(e->{addCa.AddCate(newFood);
-	addFood(newFood);win.close();});
+	o.setOnAction(e->{addCa.addCate(newFood);
+	addFood(newFood);save();win.close();});
 	text.setLayoutX(30);
 	text.setLayoutY(30);
 	text.setFont(Font.font(18));
@@ -453,10 +461,17 @@ public class AlertWindow {
 	win.setScene(new Scene(box));
 	win.showAndWait();
   }
+  public void save()
+  {
+	FoodItem save = new FoodItem();
+	save.readFoodCategory();
+	save.writeFoods();
+	save.writeExcel();
+  }
   private void addFood(String newFood) 
   {
 	EditorThree addfood = new EditorThree();
-	addfood.addMenu(newFood+"; ; ; ; ; ");
+	addfood.addMenu(newFood+";?;?;?;?;No Description");
   }
   public String getMessage()
   {

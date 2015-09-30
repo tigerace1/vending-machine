@@ -6,11 +6,20 @@ import java.util.Scanner;
 
 import LinkedList.FoodLL;
 public class EditorTwo {
-  public void DeleteMenu(String message) 
+  private String category;
+  public EditorTwo()
   {
-    int count =0;
+	category="";
+  }
+  public void setCategory(String newCategory)
+  {
+	this.category = newCategory;
+  }
+  public void deleteMenu(String message) 
+  {
+    int count = 0;
 	FoodLL<String> foodList = new FoodLL<>(); 
-	String fileName = "C:\\git\\RestaurantBussiness\\Menu\\FoodItems.txt";
+	String fileName = "FoodItems.txt";
     try{
 	  Scanner inputStream = new Scanner(new File(fileName));
 	  String line="";
@@ -18,15 +27,15 @@ public class EditorTwo {
 	  {
 		line = inputStream.nextLine();
 		String newline = toString(line); 
-		if(newline.equals(message))
-		   line = "";
-		else{
-		   foodList.addLast(line);
-		   count++;
+		if(newline.equals(message)){
+		  String[] ary = line.split(";");
+		  setCategory(ary[0]);
+		  line = "";
+		}else{
+		  foodList.addLast(line);
+		  count++;
 		}
 	  }
-	  if(foodList.isEmpty()==true)
-		DelCate(line);
 	  inputStream.close();
 	}
 	catch(FileNotFoundException e)
@@ -39,6 +48,8 @@ public class EditorTwo {
 	  for(int i=0; i<count; i++)
 		outputStream.println(foodList.getData(i));
 	  outputStream.close();
+	  if(count==0)
+		delCate(getCategory());
 	}
 	catch(FileNotFoundException e)
 	{
@@ -55,21 +66,22 @@ public class EditorTwo {
 	String size = ary[4];
 	return name+"  "+price+"  "+quality+"  "+size;
   }
-  void DelCate(String message) 
+  public void delCate(String message) 
   {
 	int count =0;
 	FoodLL<String> cateList = new FoodLL<>(); 
-	String fileName = "C:\\git\\RestaurantBussiness\\Menu\\FoodCategorise.txt";
+	String fileName = "FoodCategorise.txt";
 	try{
       Scanner inputStream = new Scanner(new File(fileName));
       while(inputStream.hasNextLine())
 	  {
 	   String line = inputStream.nextLine();
-		if(line.equals(message))
-		   line = "";
-		else{
-		   cateList.addLast(line);
-		   count++;
+	   if(line.equals(message)) {
+		  line = "";
+	   }
+	   else{
+		  cateList.addLast(line);
+		  count++;
 		}
 	  }
       inputStream.close();
@@ -90,5 +102,9 @@ public class EditorTwo {
 	   System.out.println("Cannot find the file "+fileName);
 	   System.exit(0);
 	}
-   }
+  }
+  public String getCategory()
+  {
+	return category;
+  }
  }

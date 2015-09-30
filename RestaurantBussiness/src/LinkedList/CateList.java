@@ -70,7 +70,7 @@ public class CateList<T> {
  {
   return this.head == null;
  }
- public T Remove() 
+ public T remove() 
  {
 	 T element = null;
 	 try{

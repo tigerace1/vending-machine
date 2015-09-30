@@ -15,15 +15,16 @@ import javafx.stage.Stage;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 public class GraphInterface extends Application{
-  private Button button1,button2,button3,button4,button5,button6,button7,button8;
+  private Button button1,button2,button3,button4,button5,button6,button7;
   private Label title,B,C,D,E;
   private ComboBox<String> Search1;
   private BorderPane layout;
-  private ListView<Object> listAll,listChoice;
+  private ListView<String> listAll,listChoice;
   private Stage addWindow,stage;
   private Pane window;
   private FoodLL<String> foodList;
   private TextField Search2;
+  private AlertWindow show;
   public static void main(String[] args)
   {
 	  launch(args);
@@ -33,67 +34,49 @@ public class GraphInterface extends Application{
     final Scene scene=null;
     stage.setTitle("Chengen Li's restaurant");
     setting(scene);
-    button6.setOnAction(e->{listChoice.getItems().clear();
+    button5.setOnAction(e->{listChoice.getItems().clear();
     listAll.getItems().clear();setMenu();
-    setLinkedList();Searching(Search1);
+    setLinkedList();searching("Soup");
     });
     stage.show();
   }
   private void setting(Scene scene)
   {
+	show = new AlertWindow();
     window = new Pane();
     Pane win = new Pane();
 	layout = new BorderPane();
 	Search1 = new ComboBox<>();
-	AlertWindow show = new AlertWindow();
+	Search1.getSelectionModel().selectedItemProperty().addListener((v,oldValue,newValue)->{listAll.setVisible(false);
+	listChoice.setVisible(true);searching(newValue);});
 	setLabel();
 	setMenu();
 	setButton();
 	setListView();
 	setLinkedList();
 	setTextField();
-	button1.setOnAction(e-> InformationWindow());
+	button1.setOnAction(e->informationWindow());
 	button2.setOnAction(e->System.exit(0));
-	button3.setOnAction(e-> {listAll.setVisible(false);
-	listChoice.setVisible(true);Searching(Search1);});
-	button4.setOnAction(e->addingWindow());
-	button5.setOnAction(e->DeleteFood());
-	button7.setOnAction(e->show.EditFoodCateWindow());
-	button8.setOnAction(e->SendData());
-	win.getChildren().addAll(button4,button5,button3,Search1,button7);
+	button3.setOnAction(e->addingWindow());
+	button4.setOnAction(e->deleteFood());
+	button6.setOnAction(e->show.editFoodCateWindow());
+	button7.setOnAction(e->sendData());
+	win.getChildren().addAll(button3,button4,Search1,button5,button6);
 	layout.setTop(win);
 	layout.setCenter(window);
-	window.getChildren().addAll(title,button1,button2,button6,button8,Search2,B,C,D,E);
+	window.getChildren().addAll(title,button1,button2,button7,Search2,B,C,D,E);
 	window.getChildren().addAll(listAll,listChoice);
-    scene = new Scene(layout,360,500,Color.LIGHTGREEN);
+    scene = new Scene(layout,360,500);
+    window.setStyle("-fx-background-color: lightyellow");
+    layout.setStyle("-fx-background-color: lightyellow");
 	stage.setScene(scene);
-  }
-  private void SendData() 
-  {
-	String infor = Search2.getText();
-	FoodItem menu = new FoodItem();
-	listAll.getItems().clear();
-    menu.readFoodCategory();
-    for(int i=0; i<menu.getCategoryCount();i++){
-      int j=0;
-      foodList = menu.getFoodCate().getList(i);
-      while(foodList.getData(j)!=null)
-      {
-    	String[] ary = foodList.getData(j).split("  ");
-    	String name = ary[0];
-    	if(infor.equalsIgnoreCase(name))
-           listAll.getItems().add(foodList.getData(j));
-        j++;
-      }
-    }
-    listChoice.setVisible(false);
-    listAll.setVisible(true);	
   }
   private void setListView()
   {
     listChoice = new ListView<>();
 	listAll = new ListView<>();
     listChoice.setVisible(false);
+    listAll.setVisible(true);
     listChoice.setLayoutY(70);
     listAll.setLayoutY(70);
     listChoice.setLayoutX(5);
@@ -102,6 +85,8 @@ public class GraphInterface extends Application{
     listAll.setMaxHeight(350);
     listChoice.setMinWidth(350);
     listAll.setMinWidth(350);
+    listAll.setStyle("-fx-color: yellow;-fx-background-color: gold;");
+    listChoice.setStyle("-fx-background-color: gold;");
   }
   private void setLinkedList()
   {
@@ -109,15 +94,16 @@ public class GraphInterface extends Application{
     listAll.getItems().clear();
     foodList = new FoodLL<>();
     menu.readFoodCategory();
-    for(int i=0; i<menu.getCategoryCount();i++){
-      int j=0;
+    for(int i=0;i<menu.getCategoryCount();i++)
+    {
       foodList = menu.getFoodCate().getList(i);
+      int j=0;
       while(foodList.getData(j)!=null)
       {
     	String[] ary = foodList.getData(j).split(";");
 	    listAll.getItems().add(ary[1]+"  "+ary[2]+"  "+ary[3]+"  "+ary[4]);
-        j++;
-      }
+	    j++;
+      }    
     }
     listAll.getItems().sorted();
     listChoice.setVisible(false);
@@ -129,19 +115,18 @@ public class GraphInterface extends Application{
 	Search2.setLayoutX(5);
 	Search2.setLayoutY(440);
 	Search2.setMinWidth(120);
-	Search2.setText("Searching food");
+	Search2.setPromptText("Searching food");
   }
   private void setMenu()
   {
 	FoodItem menu = new FoodItem();
 	Search1.setEditable(true);
 	Search1.getItems().clear();
-	Search1.setValue("Soup");
 	menu.readFoodCategory();
 	for(int i=0;i<menu.getCategoryCount();i++)
 	  Search1.getItems().addAll(menu.getFoodCate().getData(i));
 	Search1.getItems().sorted();
-    Search1.setLayoutX(200);
+    Search1.setLayoutX(250);
     Search1.setMinWidth(110);
     Search1.setMaxWidth(110);
     Search1.setStyle("-fx-background-color: white;");
@@ -153,10 +138,10 @@ public class GraphInterface extends Application{
 	C = new Label("Price:");
 	D = new Label("Quantity:");
 	E = new Label("Size:");
-	B.setTextFill(Color.GREEN);
-	C.setTextFill(Color.GREEN);
-	D.setTextFill(Color.GREEN);
-	E.setTextFill(Color.GREEN);
+	B.setTextFill(Color.VIOLET);
+	C.setTextFill(Color.VIOLET);
+	D.setTextFill(Color.VIOLET);
+	E.setTextFill(Color.VIOLET);
 	B.setFont(Font.font(14));
 	C.setFont(Font.font(14));
 	D.setFont(Font.font(14));
@@ -171,47 +156,43 @@ public class GraphInterface extends Application{
 	E.setLayoutY(43);
 	title.setFont(Font.font(24));
 	title.setLayoutX(80);
-	title.setTextFill(Color.GOLD);
+	title.setTextFill(Color.RED);
   }
   private void setButton()
   {
 	button1 = new Button("Information");
 	button2 = new Button("Close");
-	button3 = new Button("Search");
-	button4 = new Button("+");
-	button5 = new Button("-");
-	button6 = new Button("F5");
-	button7 = new Button("Food Category Window");
-	button8 = new Button("Send");
-	button1.setStyle("-fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );");
-	button2.setStyle("-fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );");
-	button3.setStyle("-fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );");
-	button4.setStyle("-fx-effect:dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );");
-	button5.setStyle("-fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );");
-	button6.setStyle("-fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );");
-	button7.setStyle("-fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );");
-	button8.setStyle("-fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );");
+	button3 = new Button("+");
+	button4 = new Button("-");
+	button5 = new Button("F5");
+	button6 = new Button("Food Category Window");
+	button7 = new Button("Send");
+	button1.setStyle("-fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );-fx-background-color: gold;");
+	button2.setStyle("-fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );-fx-background-color: gold;");
+	button3.setStyle("-fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );-fx-background-color: gold;");
+	button4.setStyle("-fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );-fx-background-color: gold;");
+	button5.setStyle("-fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );-fx-background-color: gold;");
+	button6.setStyle("-fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );-fx-background-color: gold;");
+	button7.setStyle("-fx-effect: dropshadow( one-pass-box , black , 8 , 0.0 , 2 , 0 );-fx-background-color: gold;");
 	button1.setTextFill(Color.DEEPPINK);
     button2.setTextFill(Color.BLUEVIOLET);
-	button3.setTextFill(Color.DEEPSKYBLUE);
+	button3.setTextFill(Color.DEEPPINK);
 	button4.setTextFill(Color.DEEPPINK);
 	button5.setTextFill(Color.DEEPPINK);
-	button6.setTextFill(Color.DEEPPINK);
-	button7.setTextFill(Color.DEEPSKYBLUE);
-	button8.setTextFill(Color.DEEPPINK);
+	button6.setTextFill(Color.DEEPSKYBLUE);
+	button7.setTextFill(Color.DEEPPINK);
     button1.setLayoutY(440);
 	button1.setLayoutX(220);
 	button2.setLayoutY(440);
 	button2.setLayoutX(310);
-	button3.setLayoutX(310);
-	button5.setLayoutX(26);
-	button7.setLayoutX(50);
-	button8.setLayoutX(160);
-	button8.setLayoutY(440);
+	button4.setLayoutX(26);
+	button5.setLayoutX(53);
+	button6.setLayoutX(90);
+	button7.setLayoutX(160);
+	button7.setLayoutY(440);
   }
-  private void Searching(ComboBox<String> choice ) 
+  private void searching(String choice ) 
   {
-	String food = choice.getValue();
 	FoodItem list = new FoodItem();
 	listChoice.getItems().clear();
 	list.readFoodCategory();
@@ -219,7 +200,7 @@ public class GraphInterface extends Application{
 	for(int i=0;i<list.getCategoryCount();i++)
 	{
 	  lines = list.getFoodCate().getData(i);
-	  if(lines.equalsIgnoreCase(food)){
+	  if(lines.equalsIgnoreCase(choice)){
 	    int j=0;
 	    foodList = list.getFoodCate().getList(i);
 	    while(foodList.getData(j)!=null)
@@ -231,10 +212,53 @@ public class GraphInterface extends Application{
 	  }
 	}
   }
+  private void sendData() 
+  {
+	String infor = Search2.getText();
+	FoodItem menu = new FoodItem();
+	listAll.getItems().clear();
+    menu.readFoodCategory();
+    for(int i=0; i<menu.getCategoryCount();i++){
+      int j=0;
+      foodList = menu.getFoodCate().getList(i);
+      while(foodList.getData(j)!=null)
+      {
+    	String[] ary = foodList.getData(j).split(";");
+    	String name = ary[1];
+    	if(infor.equalsIgnoreCase(name)){
+    	   String line = ary[1]+"  "+ary[2]+"  "+ary[3]+"  "+ary[4];
+           listAll.getItems().add(line);
+    	}
+        j++;
+      }
+    }
+    listChoice.setVisible(false);
+    listAll.setVisible(true);	
+  }
+  private void deleteFood() 
+  {
+	String message="";
+	if(listAll.isVisible())
+	  message = listAll.getSelectionModel().getSelectedItem();
+	else
+	if(listChoice.isVisible())
+	  message = listChoice.getSelectionModel().getSelectedItem();
+	try{
+		if(message.equals(""))
+		  throw new Exception("");
+		confirmDeleteWindow(message);
+	}
+	catch(Exception e)
+	{
+	   e.getMessage();
+	   show.exceptionWindow();
+	}
+  }
   private void confirmDeleteWindow(String message) 
   {
 	Stage win = new Stage();
 	Pane box = new Pane();
+	box.setStyle("-fx-background-color: lightyellow");
 	EditorTwo Del = new EditorTwo();
 	Label text = new Label("Are you Sure you want to delete this food?");
 	Button o = new Button("Yes");
@@ -248,8 +272,8 @@ public class GraphInterface extends Application{
 	x.setLayoutX(130);
 	x.setLayoutY(70);
 	x.setOnAction(e->win.close());
-	o.setOnAction(e->{Del.DeleteMenu(message);
-	win.close();});
+	o.setOnAction(e->{Del.deleteMenu(message);
+	show.save();win.close();});
 	text.setLayoutY(30);
 	text.setLayoutX(8);
 	text.setFont(Font.font(12));
@@ -258,42 +282,23 @@ public class GraphInterface extends Application{
 	win.setScene(new Scene(box));
 	win.showAndWait();
   }
-  private void DeleteFood() 
+  private void informationWindow() 
   {
 	String message="";
 	if(listAll.isVisible())
-	  message = (String) listAll.getSelectionModel().getSelectedItem();
+	  message = listAll.getSelectionModel().getSelectedItem();
 	else
 	if(listChoice.isVisible())
-	  message = (String) listChoice.getSelectionModel().getSelectedItem();
+	  message = listChoice.getSelectionModel().getSelectedItem();
 	try{
-		if(message.equals(""))
-		  throw new Exception("");
-		confirmDeleteWindow(message);
+	  if(message.equals(""))
+		throw new Exception("");
+	  show.inforWindow(message,Search1.getValue());
 	}
 	catch(Exception e)
 	{
-		e.getMessage();
-		AlertWindow show = new AlertWindow();
-		show.ExceptionWindow();
-	}
-  }
-  public void InformationWindow() 
-  {
-	AlertWindow show = new AlertWindow();
-	String food="";
-	if(listChoice.isVisible())
-	  food = (String) listChoice.getSelectionModel().getSelectedItem();
-	else
-	  food = (String) listAll.getSelectionModel().getSelectedItem();
-	try{
-		if(food.equals(""))
-		  throw new Exception("");
-	    show.InforWindow(food);
-	}
-	catch(Exception e)
-	{
-	  show.ExceptionWindow();
+	  e.getMessage();
+	  show.exceptionWindow();
 	}
   }
   public void addingWindow() 
@@ -307,6 +312,7 @@ public class GraphInterface extends Application{
 	d = new TextField();
 	New = new TextArea();
 	Pane addPane = new Pane();
+	addPane.setStyle("-fx-background-color: lightyellow");
 	ComboBox<String> cate = new ComboBox<>();
 	cate.setEditable(true);
 	addWindow.setTitle("Adding window");
@@ -331,7 +337,7 @@ public class GraphInterface extends Application{
 	if(New.getText().equals(""))
 	  New.setText("No description");
 	String Message = cate.getValue()+";"+a.getText()+";"+b.getText()+";"+c.getText()+";"+d.getText()+";"+New.getText();
-	ConfirmAddingWindow(Message);});
+	confirmAddingWindow(Message);});
 	two.setOnAction(e->addWindow.close());
 	Label first = new Label("Name:");
 	Label second = new Label("Price:");
@@ -372,9 +378,10 @@ public class GraphInterface extends Application{
  	addWindow.setScene(new Scene(addPane));
  	addWindow.showAndWait();
   }
-  private void ConfirmAddingWindow(String Message) {
+  private void confirmAddingWindow(String Message) {
 	Stage win = new Stage();
 	Pane box = new Pane();
+	box.setStyle("-fx-background-color: lightyellow");
 	EditorThree Add = new EditorThree();
 	Label text = new Label("Are you Sure the changes?");
 	Button o = new Button("Yes");
@@ -388,7 +395,7 @@ public class GraphInterface extends Application{
 	x.setLayoutX(130);
 	x.setLayoutY(70);
 	x.setOnAction(e->win.close());
-	o.setOnAction(e->{Add.addMenu(Message);win.close();
+	o.setOnAction(e->{Add.addMenu(Message);show.save();win.close();
 	addWindow.close();});
 	text.setLayoutX(10);
 	text.setLayoutY(30);
@@ -400,6 +407,6 @@ public class GraphInterface extends Application{
   }
   public FoodLL<String> getFoodList()
   {
-	  return foodList;
+	return foodList;
   }
 }

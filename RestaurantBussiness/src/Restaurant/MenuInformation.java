@@ -14,16 +14,10 @@ public class MenuInformation {
   {
 	  this.line = newLine;
   }
-  public String DisplayInfor(String message)
+  public String displayInfor(String message)
   {
-	String line ="";
-	String fileName = "C:\\git\\RestaurantBussiness\\Menu\\FoodCategorise.txt";
-	try{
-	 Scanner inputStream = new Scanner(new File(fileName));
-	 while(inputStream.hasNextLine())
-	 {
-	   line = inputStream.nextLine();
-	   String file = "C:\\git\\RestaurantBussiness\\Menu\\FoodItems.txt";
+	
+	   String file = "FoodItems.txt";
 	   try{
 		Scanner input = new Scanner(new File(file));
 		while(input.hasNextLine())
@@ -33,22 +27,14 @@ public class MenuInformation {
 		  String d = ary[5];
 		  if(message.equals(setString(newLine)))
 			setLine(d);
-		  input.close();
 	    }
-		inputStream.close();
+		input.close();
 	   }
 	   catch(FileNotFoundException e)
 	   {
-		 System.out.println("Cannot find the file "+fileName);
+		 System.out.println("Cannot find the file "+file);
 		 System.exit(0);
 	   }
-	  }
-	 }
-	 catch(FileNotFoundException e)
-	 {
-	   System.out.println("Cannot find the file "+fileName);
-	   System.exit(0);
-	 }
 	 return line;
   }
   private String setString(String lines) 

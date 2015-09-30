@@ -23,15 +23,14 @@ public class EditorThree{
 	  setMessage(message);
 	  writeMenu();
   }
-  public void AddCate(String newFood)
+  public void addCate(String newFood)
   {
 	  setNewFood(newFood);
 	  writeCate();
   }
   private void writeMenu() 
   {
-	 setMessage(Message);
-     String fileName = "C:\\git\\RestaurantBussiness\\Menu\\FoodItems.txt";
+     String fileName = "FoodItems.txt";
 	try{
 	  PrintWriter OutputStream = new PrintWriter(new FileOutputStream(fileName,true));
 	  OutputStream.println(Message);
@@ -44,7 +43,7 @@ public class EditorThree{
   }
   private void writeCate() 
   {
-	String fileName = "C:\\git\\RestaurantBussiness\\Menu\\FoodCategorise.txt";
+	String fileName = "FoodCategorise.txt";
     try{
 	  PrintWriter outputStream = new PrintWriter(new FileOutputStream(fileName,true));
 	  outputStream.println(NewFood);
