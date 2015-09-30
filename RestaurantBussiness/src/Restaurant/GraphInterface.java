@@ -16,7 +16,7 @@ import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 public class GraphInterface extends Application{
   private Button button1,button2,button3,button4,button5,button6,button7;
-  private Label title,B,C,D,E;
+  private Label title,B,C,D,E,empty;
   private ComboBox<String> Search1;
   private BorderPane layout;
   private ListView<String> listAll,listChoice;
@@ -65,7 +65,7 @@ public class GraphInterface extends Application{
 	layout.setTop(win);
 	layout.setCenter(window);
 	window.getChildren().addAll(title,button1,button2,button7,Search2,B,C,D,E);
-	window.getChildren().addAll(listAll,listChoice);
+	window.getChildren().addAll(listAll,listChoice,empty);
     scene = new Scene(layout,360,500);
     window.setStyle("-fx-background-color: lightyellow");
     layout.setStyle("-fx-background-color: lightyellow");
@@ -85,8 +85,8 @@ public class GraphInterface extends Application{
     listAll.setMaxHeight(350);
     listChoice.setMinWidth(350);
     listAll.setMinWidth(350);
-    listAll.setStyle("-fx-color: yellow;-fx-background-color: gold;");
-    listChoice.setStyle("-fx-background-color: gold;");
+    listAll.setStyle("-fx-color: yellow;-fx-background-color: lightyellow;");
+    listChoice.setStyle("-fx-background-color: lightyellow;");
   }
   private void setLinkedList()
   {
@@ -138,6 +138,8 @@ public class GraphInterface extends Application{
 	C = new Label("Price:");
 	D = new Label("Quantity:");
 	E = new Label("Size:");
+	empty = new Label("Item Not Found");
+	empty.setTextFill(Color.VIOLET);
 	B.setTextFill(Color.VIOLET);
 	C.setTextFill(Color.VIOLET);
 	D.setTextFill(Color.VIOLET);
@@ -154,6 +156,9 @@ public class GraphInterface extends Application{
 	D.setLayoutY(43);
 	E.setLayoutX(220);
 	E.setLayoutY(43);
+	empty.setLayoutX(150);
+	empty.setLayoutY(180);
+	empty.setVisible(false);
 	title.setFont(Font.font(24));
 	title.setLayoutX(80);
 	title.setTextFill(Color.RED);
@@ -232,6 +237,8 @@ public class GraphInterface extends Application{
         j++;
       }
     }
+    if(listAll.getItems().isEmpty()==true)
+       empty.setVisible(true);
     listChoice.setVisible(false);
     listAll.setVisible(true);	
   }

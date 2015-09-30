@@ -1,13 +1,13 @@
-Dessert;Pumpkin Cheesecake;$6.99;good;small;This is a delicious, creamy, spicy cheesecake! If you like pumpkin pie, this is a creamy version -- dense and flavorful!
-Dessert;Seasonal Sicilian;$6.49;good;mid;Sweet & flavorful
-Dessert;Tiramisu;$6.49;good;mid;A popular coffee-flavored Italian dessert. It is made of ladyfingers  dipped in coffee,layered with a whipped mixture of eggs, sugar, and mascarpone cheese, flavoured with cocoa.
-Dessert;Chocolate Mousse Cake;$4.99;good;mid;A rich,dense,moist chocolate cake
-Dessert;Lemon Cream Cake;$6.39;good;mid;From its' snowy white marshmallowy frosting that is enveloped in shreds of dried coconut, to the layers of moist and sweet butter cake sandwiched together with a tangy lemon curd. 
-Dessert;Zeppoli;$6.49;good;mid;This doughnut or fritter is usually topped with powdered sugar, and may be filled with custard, jelly, cannoli-style pastry cream, or a butter-and-honey mixture. The consistency ranges from light and puffy, to bread- or pasta-like.
-Dessert;Sundae;$1.79;good;large;Wonderful ice-cream with strawberry, bluebrerry and other 5 flavor jam.
-Dessert;Caffe Mocha;$4.00;good;small;A chocolate-flavored variant of a caffè latte
-Dessert;Caffe Latte;$4.05;good;small;A latte is a coffee drink made with espresso and steamed milk.
-Dessert;Herbal& Flavored Hot Teas;$2.49;good;small;The best tea ever.
+Desserts;Pumpkin Cheesecake;$6.99;good;small;This is a delicious, creamy, spicy cheesecake! If you like pumpkin pie, this is a creamy version -- dense and flavorful!
+Desserts;Seasonal Sicilian;$6.49;good;mid;Sweet & flavorful
+Desserts;Tiramisu;$6.49;good;mid;A popular coffee-flavored Italian dessert. It is made of ladyfingers  dipped in coffee,layered with a whipped mixture of eggs, sugar, and mascarpone cheese, flavoured with cocoa.
+Desserts;Chocolate Mousse Cake;$4.99;good;mid;A rich,dense,moist chocolate cake
+Desserts;Lemon Cream Cake;$6.39;good;mid;From its' snowy white marshmallowy frosting that is enveloped in shreds of dried coconut, to the layers of moist and sweet butter cake sandwiched together with a tangy lemon curd. 
+Desserts;Zeppoli;$6.49;good;mid;This doughnut or fritter is usually topped with powdered sugar, and may be filled with custard, jelly, cannoli-style pastry cream, or a butter-and-honey mixture. The consistency ranges from light and puffy, to bread- or pasta-like.
+Desserts;Sundae;$1.79;good;large;Wonderful ice-cream with strawberry, bluebrerry and other 5 flavor jam.
+Desserts;Caffe Mocha;$4.00;good;small;A chocolate-flavored variant of a caffè latte
+Desserts;Caffe Latte;$4.05;good;small;A latte is a coffee drink made with espresso and steamed milk.
+Desserts;Herbal& Flavored Hot Teas;$2.49;good;small;The best tea ever.
 Ontray;Baked Parmesan Shrimp;$15.99;good;mid;Baked shrimp with butter and Parmesan cheese and bread crumbs.
 Ontray;Herb-Grilled Salmon;$13.99;good;mid;Grilled Salmon with Herb Crust. Finely chopped herbs create a flavorful crust on this grilled salmon, which is low in both calories and sodium
 Ontray;Seafood Alfredo;$18.78;good;large;Seafood Alfredo is a pasta dish made from fettuccine tossed with Parmesan cheese and butter. As the cheese melts, it emulifies the liquids to form a smooth and rich coating on the pasta. The term is a synonym for pasta with butter and Parmesan cheese, one of the oldest and simplest ways to prepare pasta.
@@ -42,6 +42,3 @@ Wine&Drinks;Orange Juice;$1.99;good;mid;gg
 Wine&Drinks;Red Wine;$2.99($45);best;a wine cup;ffff
 Wine&Drinks;Whiskey;$3.69;good;small;dd
 Wine&Drinks;Beer;$2.60;good;a large cup;ffff
-cake;hkh;?;?;?;No Description
-Dessert;?;?;?;?;No description
-ii;?;?;?;?;No Description

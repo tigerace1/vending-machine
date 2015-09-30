@@ -2,8 +2,6 @@ package Restaurant;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-
-import LinkedList.FoodLL;
 public class MenuInformation {
   private static String line;
   public MenuInformation()
@@ -16,25 +14,24 @@ public class MenuInformation {
   }
   public String displayInfor(String message)
   {
-	
-	   String file = "FoodItems.txt";
-	   try{
-		Scanner input = new Scanner(new File(file));
-		while(input.hasNextLine())
-		{
-		  String newLine = input.nextLine();
-		  String[] ary = newLine.split(";");
-		  String d = ary[5];
-		  if(message.equals(setString(newLine)))
-			setLine(d);
-	    }
-		input.close();
-	   }
-	   catch(FileNotFoundException e)
-	   {
-		 System.out.println("Cannot find the file "+file);
-		 System.exit(0);
-	   }
+	 String file = "FoodItems.txt";
+	 try{
+	  Scanner input = new Scanner(new File(file));
+	  while(input.hasNextLine())
+	  {
+		String newLine = input.nextLine();
+		String[] ary = newLine.split(";");
+		String d = ary[5];
+		if(message.equals(setString(newLine)))
+		  setLine(d);
+	  }
+	  input.close();
+	 }
+	 catch(FileNotFoundException e)
+	 {
+	  System.out.println("Cannot find the file "+file);
+	  System.exit(0);
+	 }
 	 return line;
   }
   private String setString(String lines) 

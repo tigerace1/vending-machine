@@ -71,7 +71,7 @@ public class Test {
 	System.out.println("Adding cake");
 	EditorThree add = new EditorThree();
 	add.addCate("Cakes");
-	add.addMenu("Cakes;Cup cake;$1.99;Good;big;very good");
+	add.addMenu("Cakes;Cupcake;$1.99;Good;big;very good");
     restaurant();
  }
  void editCate()
@@ -79,20 +79,21 @@ public class Test {
 	System.out.println("Editing Cake to PanCake");
 	Editor edit = new Editor();
 	edit.EditCate("PanCake","Cakes");
-	edit.EditMenu("PanCake;Cup cake;$1.99;Good;big;very good","Cup cake  $1.99  Good  big");
+	edit.EditMenu("PanCake;Pancake;$1.99;Good;big;very good","Cupcake  $1.99  Good  big");
 	restaurant();
  }
  void deleteCate()
  {
 	System.out.println("Delete PanCake");
 	EditorTwo del = new EditorTwo();
+	del.deleteMenu("Pancake  $1.99  Good  big");
 	del.delCate("PanCake");
-	del.deleteMenu("Cup cake  $1.99  Good  big  very good");
 	restaurant();
  }
  void remove()
  {
 	String fileName = "FoodItems.txt";
+	System.out.println("Food items::");
 	int i=0;
 	try{
 	  Scanner inputStream = new Scanner(new File(fileName));
@@ -110,14 +111,15 @@ public class Test {
 	{
 		System.exit(0);
 	}
-	System.out.println("Remove one line");
 	foodList.remove();
+	System.out.println("Remove one line:");
 	for(int j=0;j<i-1;j++)
 		System.out.println(foodList.getData(j));
  }
  void removeCate()
  {
     String fileName = "FoodCategorise.txt";
+    System.out.println("All Categorise:");
     int i =0;
 	try{
 	  Scanner inputStream = new Scanner(new File(fileName));
@@ -134,8 +136,8 @@ public class Test {
 	{
 	 System.exit(0);
 	}
-	System.out.println("Remove one category");
 	cateList.remove();
+	System.out.println("Remove one category");
     for(int j=0;j<i-1;j++)
       System.out.println(cateList.getData(j));
  }

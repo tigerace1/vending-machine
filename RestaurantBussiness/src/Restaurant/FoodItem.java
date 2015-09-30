@@ -21,11 +21,17 @@ import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
 import LinkedList.CateList;
 import LinkedList.FoodLL;
+/**
+ * description
+ * @author Chengen
+ *
+ */
 public class FoodItem implements Serializable{
   private FoodLL<String> FoodItem;
   private CateList<Object> foodCa;
   private int CategoryCount;
   private int FoodCount;
+ 
   public FoodItem()
   {
 	FoodItem = new FoodLL<>();
