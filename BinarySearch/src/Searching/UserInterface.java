@@ -207,7 +207,7 @@ public class UserInterface extends Application{
 	listAll.setVisible(true);
 	listChoice.setVisible(false);
   }
-  /**Using recursion to put the items fromt the tree into the list view*/
+  /**Using recursion to put the items from the tree into the list view*/
   private void inOrder(Node root)
   {
 	 if(root!=null)
@@ -223,7 +223,13 @@ public class UserInterface extends Application{
     list = new FoodList<>();
 	link = new FoodLL<>();
 	food.readFoods();
-	list=food.getList();
+	link=food.getLink();
+	list.bstAdd(link.getData((0+link.getCount())/2));
+	for(int i=0;i<link.getCount()-1;i++)
+	{
+	  if(!link.getData((0+link.getCount())/2).equalsIgnoreCase(link.getData(i)))
+		 list.bstAdd(link.getData(i));
+	}
   }
   /**add one food item into the restaurant menu*/
   private void adding() 
