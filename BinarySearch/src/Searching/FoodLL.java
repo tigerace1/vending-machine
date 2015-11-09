@@ -109,8 +109,8 @@ public class FoodLL<T> {
  {
     if(tree==null)
 	  return;
-	preOrder(tree.getLeft());
-	preOrder(tree.getRight());
+	postOrder(tree.getLeft());
+	postOrder(tree.getRight());
 	enqueue(tree.getData());
  }
  private void inOrder(Node<T> tree)

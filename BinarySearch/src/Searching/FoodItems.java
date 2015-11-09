@@ -42,6 +42,7 @@ public class FoodItems {
 	   count++;
 	 }
 	 foodLink.inOrderTree(foodList.getRoot());
+	 foodList.balance();
 	 inputStream.close();
    }
    catch(FileNotFoundException e)

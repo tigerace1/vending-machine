@@ -2,9 +2,11 @@ package Searching;
 public class FoodList<T>{
  private int count;
  private Node<T> root;
+ private String[] line;
  public FoodList()
  {
 	root=null;
+	line =null;
 	count=0;
  }
  public void setRoot(Node<T>root)
@@ -14,6 +16,10 @@ public class FoodList<T>{
  public void setCount(int count)
  {
 	this.count=count;
+ }
+ public void setLIne(String[] line)
+ {
+	this.line = line;
  }
  private T setString(T data)
  {
@@ -37,7 +43,33 @@ public class FoodList<T>{
       if(tmp==null)
     	return null;
     }
-    return data;
+    return tmp.getData();
+ }
+ public void balance()
+ {
+    line = new String[count];
+    FoodLL<T> add = new FoodLL<>();
+    add.inOrderTree(root);
+    for(int i=0;i<count;i++)
+      line[i]=(String) add.getData(i);
+    root = null;
+    insertTree(0,count-1);
+    count=count/2;
+ }
+ /**Balancing the tree*/
+ private  void insertTree(int low,int high)
+ {
+   if(low==high)
+	  bstAdd((T) line[low]);
+   else if((low+1)==high){
+	  bstAdd((T)line[low]);
+	  bstAdd((T)line[high]);
+   }else{
+	  int mid =(low+high)/2;
+	  bstAdd((T)line[mid]);
+	  insertTree(low,mid-1);
+	  insertTree(mid+1,high);
+   }
  }
  /**Add a new node into the tree*/
  public void bstAdd(T data)

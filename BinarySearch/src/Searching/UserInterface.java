@@ -21,7 +21,7 @@ import javafx.stage.Stage;
 public class UserInterface extends Application{
   private Button button1,button2,button3;
   private Label title,empty,foods;
-  private ListView<String> listAll,listChoice;
+  private ListView<String> listAll;
   private BorderPane window;
   private Pane layout;
   private MenuBar menuBar;
@@ -58,8 +58,19 @@ public class UserInterface extends Application{
 	window.setStyle("-fx-background-color: black;");
 	window.setTop(menuBar);
 	window.setCenter(layout);
-	layout.getChildren().addAll(button1,button2,button3,title,empty,listAll,listChoice,Search,foods);
-	button1.setOnAction(e->{Searching();});
+	layout.getChildren().addAll(button1,button2,button3,title,empty,listAll,Search,foods);
+	button1.setOnAction(e->{
+		if(Search.getText().trim().equals("")&&listAll.getSelectionModel().getSelectedItem()==null)
+			setListAll();
+		else if(listAll.getSelectionModel().getSelectedItem()!=null)
+		  searching(listAll.getSelectionModel().getSelectedItem());
+		else searching(Search.getText().trim());});
+	listAll.setOnKeyPressed(e->{switch(e.getCode()){case ENTER:
+		if(listAll.getSelectionModel().getSelectedItem()!=null)
+		 searching(listAll.getSelectionModel().getSelectedItem());else
+		 exceptionWindow();break;
+	    default:
+		break;}});
 	button2.setOnAction(e->{deleteFood();setListAll();});
 	button3.setOnAction(e->save());
 	Scene scene = new Scene(window,360,490);
@@ -69,6 +80,7 @@ public class UserInterface extends Application{
   private void savingWindow() 
   {
 	Stage win = new Stage();
+	win.setOnCloseRequest(e->win.close());
 	Pane box = new Pane();
 	box.setStyle("-fx-background-color: black");
 	Label text = new Label("Do you want to save the changes?");
@@ -85,7 +97,7 @@ public class UserInterface extends Application{
 	x.setLayoutX(150);
 	x.setLayoutY(70);
 	x.setOnAction(e->{win.close();primaryStage.close();});
-	o.setOnAction(e->{save();primaryStage.close();});
+	o.setOnAction(e->{save();win.close();primaryStage.close();});
 	text.setLayoutX(10);
 	text.setLayoutY(30);
 	text.setFont(Font.font(18));
@@ -159,7 +171,11 @@ public class UserInterface extends Application{
 	Search.setMinWidth(120);
 	Search.setPromptText("Search foods");
 	Search.setOnKeyPressed(e->{switch(e.getCode())
-	{case ENTER:Searching(); break;
+	{case ENTER:
+		if(Search.getText().trim().equals(""))
+			setListAll();
+		else 
+		 searching(Search.getText().trim()); break;
 	 default:break;}});
 	Search.textProperty().addListener(new ChangeListener<String>(){
 		 @Override
@@ -170,7 +186,7 @@ public class UserInterface extends Application{
 			for(int i=0;i<food.getCount();i++){
 			  String line = link.Suggested(newV,i);
 			  if(line!=null){
-				listAll.getItems().add(link.getData(i));
+				listAll.getItems().add(setString(link.getData(i)));
 			  }
 			}
 			if(listAll.getItems()==null)
@@ -183,39 +199,37 @@ public class UserInterface extends Application{
   }
   private void setListView()
   {
-	listChoice = new ListView<>();
     listAll = new ListView<>();
-	listChoice.setVisible(false);
 	listAll.setVisible(true);
-	listChoice.setLayoutY(60);
 	listAll.setLayoutY(60);
-	listChoice.setLayoutX(5);
 	listAll.setLayoutX(5);
-	listChoice.setMaxHeight(350);
 	listAll.setMaxHeight(350);
-	listChoice.setMinWidth(350);
 	listAll.setMinWidth(350);
 	listAll.setStyle("-fx-textfill-color: yellow;-fx-foreground-color: black;");
-	listChoice.setStyle("-fx-background-color: black;");
   }
   private void setListAll()
   {  
     listAll.getItems().clear();
     listAll.setVisible(false);
+    link = new FoodLL<>();
     link.inOrderTree(list.getRoot());
     inOrder(list.getRoot()); 
 	listAll.setVisible(true);
-	listChoice.setVisible(false);
   }
   /**Using recursion to put the items from the tree into the list view*/
-  private void inOrder(Node root)
+  private void inOrder(Node<String> root)
   {
 	 if(root!=null)
 	 {
 	   inOrder(root.getLeft());
-	   listAll.getItems().add((String) root.getData());
+	   listAll.getItems().add((String)setString(root.getData()));
 	   inOrder(root.getRight());
 	 }
+  }
+  private String setString(Object data)
+  {
+	 String[] ary = ((String) data).split("  ");
+	 return ary[0];
   }
   private void setLinkedList()
   {
@@ -223,13 +237,8 @@ public class UserInterface extends Application{
     list = new FoodList<>();
 	link = new FoodLL<>();
 	food.readFoods();
+	list =food.getList();
 	link=food.getLink();
-	list.bstAdd(link.getData((0+link.getCount())/2));
-	for(int i=0;i<link.getCount()-1;i++)
-	{
-	  if(!link.getData((0+link.getCount())/2).equalsIgnoreCase(link.getData(i)))
-		 list.bstAdd(link.getData(i));
-	}
   }
   /**add one food item into the restaurant menu*/
   private void adding() 
@@ -298,7 +307,7 @@ public class UserInterface extends Application{
 	text.setFont(Font.font(18));
 	text.setTextFill(Color.GOLD);
 	o.setOnKeyPressed(e->{switch(e.getCode()){case ENTER:
-	{list.bstAdd(Message);setListAll();win.close();};break;
+	{list.bstAdd(Message);list.balance();setListAll();win.close();};break;
 	default:break;}});
 	box.getChildren().addAll(o,x,text);
 	win.setScene(new Scene(box));
@@ -355,15 +364,15 @@ public class UserInterface extends Application{
 	win.showAndWait();
   }
   /**Allow user to search a food by its name*/
-  private void Searching() 
+  private void searching(String food) 
   {
-    String food = Search.getText().trim();
-    if(list.bstSearch(food)==null){
-      listAll.setVisible(false);
-      suggestWindow(food);
-    }else{
+	String data = list.bstSearch(food);
+	if(data==null){
+	  listAll.setVisible(false);
+	  suggestWindow(Search.getText().trim());
+	}else{
       listAll.getItems().clear();
-      listAll.getItems().add(list.bstSearch(food));
+      listAll.getItems().add(data);
       listAll.setVisible(true);
     }
   }
@@ -379,21 +388,22 @@ public class UserInterface extends Application{
 	Button o = new Button("Yes");
 	Button x = new Button("No");
 	o.setStyle("-fx-background-color: gold");
+	x.setStyle("-fx-background-color: gold");
 	Exceptionwin.setTitle("Exception window");
 	Exceptionwin.initModality(Modality.APPLICATION_MODAL);
 	Exceptionwin.setWidth(350);
-	Exceptionwin.setHeight(230);
-	o.setLayoutX(80);
-	o.setLayoutY(80);
-	x.setLayoutX(130);
-	x.setLayoutY(80);
+	Exceptionwin.setHeight(180);
+	o.setLayoutX(200);
+	o.setLayoutY(110);
+	x.setLayoutX(280);
+	x.setLayoutY(110);
 	o.setOnAction(e->{adding();Exceptionwin.close();});
 	x.setOnAction(e->Exceptionwin.close());
 	text.setLayoutX(50);
 	text.setLayoutY(30);
 	text.setFont(Font.font(18));
 	text.setTextFill(Color.GOLD);
-	box.getChildren().addAll(o,text);
+	box.getChildren().addAll(o,x,text);
 	Exceptionwin.setScene(new Scene(box));
 	Exceptionwin.showAndWait();
   }
@@ -402,6 +412,10 @@ public class UserInterface extends Application{
   {
 	 FoodItems save = new FoodItems();
 	 save.setFoodLink(link);
+	 System.out.println(food.getCount());
+	 System.out.println(list.getCount());
+	 System.out.println(link.getCount());
+	 food.setCount(link.getCount());
 	 save.writeFoods();
   }
   /**this window will shows up when there is an exception*/
